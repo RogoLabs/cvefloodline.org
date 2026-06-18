@@ -4,7 +4,7 @@ A daily-updating static site visualizing CVE volume vs. exploitability over
 time, building on FIRST.org's June 2026 vulnerability forecast by Jerry Gamblin
 and Eireann Leverett.
 
-**The thesis:** new CVEs arrive with low scores. Of ~18,900 disclosed in a quarter,
+**The thesis:** new CVEs arrive with low scores. Of ~18,934 disclosed in a quarter,
 only a handful look high-risk the day they land, but the risk **matures in over
 the following weeks** (EPSS climbs, CISA KEV listings arrive). Volume is the
 rain; the real signal is the tide coming in behind it. The work isn't patching
@@ -16,7 +16,7 @@ volume, it's finding the few early.
 
 ## What the data shows
 
-Across a ~90-day window (~18,900 CVEs): about **6** crossed a 10% EPSS line on
+Across a ~90-day window (~18,934 CVEs, ~17,199 net of backfill): about **6** crossed a 10% EPSS line on
 their disclosure day, but **33** of the same cohorts crossed within **30 days**,
 and **40** landed in CISA KEV. Re-scored at fixed horizons, crossings per 1,000
 CVEs climb roughly **0.3 → 1.3 → 2.7** at day 0 / +7 / +30 (the +90 horizon needs
