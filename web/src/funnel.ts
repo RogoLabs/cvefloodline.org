@@ -13,7 +13,9 @@ const nf = new Intl.NumberFormat();
 const ratio = (total: number, part: number) => (part > 0 ? Math.round(total / part) : 0);
 
 export function renderFunnel(container: HTMLElement, summary: Summary) {
-  const matured = ratio(summary.total, summary.cross10_matured); // headline ratio
+  // Matured rate uses only CVEs old enough to HAVE a 30-day score (eligible
+  // cohorts), not all volume; otherwise un-assessable recent CVEs dilute it.
+  const matured = ratio(summary.matured_eligible_total, summary.cross10_matured);
   const dayOne = ratio(summary.total, summary.cross10_pit);
   const kev = ratio(summary.total, summary.kev);
 

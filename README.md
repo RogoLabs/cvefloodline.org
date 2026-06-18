@@ -4,7 +4,7 @@ A daily-updating static site visualizing CVE volume vs. exploitability over
 time, building on FIRST.org's June 2026 vulnerability forecast by Jerry Gamblin
 and Eireann Leverett.
 
-**The thesis:** new CVEs arrive with low scores. Of ~19,500 disclosed in a quarter,
+**The thesis:** new CVEs arrive with low scores. Of ~18,900 disclosed in a quarter,
 only a handful look high-risk the day they land, but the risk **matures in over
 the following weeks** (EPSS climbs, CISA KEV listings arrive). Volume is the
 rain; the real signal is the tide coming in behind it. The work isn't patching
@@ -16,14 +16,16 @@ volume, it's finding the few early.
 
 ## What the data shows
 
-Across a 90-day window (~19,700 CVEs): about **6** crossed a 10% EPSS line on
-their disclosure day, but **~35** of the same cohorts crossed within **30 days**,
-and **~41** landed in CISA KEV. Re-scored at fixed horizons, crossings per 1,000
-CVEs climb roughly **0.3 → 1.3 → 2.7 → 9.2** at day 0 / +7 / +30 / +90. So the
-near-zero day-one number is *not* the whole story, it's a snapshot taken before
-the danger has surfaced. ~9% of raw "volume" is backfilled old CVE IDs (shown
-net), and the CVEs that do cross are recognizable (Cisco, Ivanti, Palo Alto,
-NetScaler, Apache, cPanel …), the site names them.
+Across a ~90-day window (~18,900 CVEs): about **6** crossed a 10% EPSS line on
+their disclosure day, but **33** of the same cohorts crossed within **30 days**,
+and **40** landed in CISA KEV. Re-scored at fixed horizons, crossings per 1,000
+CVEs climb roughly **0.3 → 1.3 → 2.7** at day 0 / +7 / +30 (the +90 horizon needs
+cohorts older than the window, so it is not shown until enough time passes). So
+the near-zero day-one number is *not* the whole story, it's a snapshot taken
+before the danger has surfaced. Among CVEs old enough to have a 30-day score,
+about **1 in 370** crosses the line. ~9% of raw "volume" is backfilled old CVE
+IDs (shown net), and the CVEs that do cross are recognizable (Cisco, Ivanti,
+Palo Alto, NetScaler, Apache, cPanel), the site names them.
 
 This is **not** an argument to slow patching: EPSS climbs over time and KEV
 listings lag disclosure by months, so recent counts are lower bounds, and this

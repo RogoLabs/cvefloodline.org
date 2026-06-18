@@ -17,7 +17,10 @@ export function createMaturation(
 ): MaturationHandle {
   function render(threshold: number) {
     container.querySelectorAll("svg").forEach((n) => n.remove());
-    const data = maturationCurve(days, threshold, horizons);
+    // Only horizons with at least one eligible cohort; a horizon no cohort is
+    // old enough for (e.g. +90 in a 90-day window) would otherwise plot a
+    // misleading zero.
+    const data = maturationCurve(days, threshold, horizons).filter((d) => d.eligibleDays > 0);
 
     const width = container.clientWidth || 600;
     const height = 240;
@@ -32,7 +35,7 @@ export function createMaturation(
         `Crossings of EPSS ${threshold}% per 1,000 CVEs rise from ${data[0].ratePerK.toFixed(1)} on day zero to ${data[data.length - 1].ratePerK.toFixed(1)} by ${horizons[horizons.length - 1]} days.`);
     const g = svg.append("g").attr("transform", `translate(${m.left},${m.top})`);
 
-    const x = d3.scalePoint().domain(horizons.map(String)).range([0, iw]).padding(0.5);
+    const x = d3.scalePoint().domain(data.map((d) => String(d.horizon))).range([0, iw]).padding(0.5);
     const yMax = Math.max(d3.max(data, (d) => d.ratePerK) ?? 1, 1) * 1.2;
     const y = d3.scaleLinear().domain([0, yMax]).nice().range([ih, 0]);
 
