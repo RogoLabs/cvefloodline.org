@@ -69,8 +69,8 @@
           </div>
         </div>
         <p class="mt-3 text-xs leading-relaxed text-mist/70">
-          We did not tag a single CVE as “AI-found.” We read the population curve, and the curve
-          bent when the tools arrived. (One CNA clearing an AI-surfaced backlog posted +3,119%.)
+          No CVE here is labeled “AI-found.” The population curve simply bent when the tools
+          arrived. (One CNA clearing an AI-surfaced backlog posted +3,119%.)
           About <span id="backfill-pct">9%</span> of the total is <em>phantom rain</em>, old CVE
           IDs re-published, shown net below.
         </p>
@@ -94,7 +94,7 @@
         </div>
         <input id="threshold" type="range" min="10" max="95" step="5" value="10"
                class="floodslider mt-3 w-full" aria-describedby="caption" />
-        <div class="mt-1 flex justify-between font-mono text-[10px] text-mist/60"><span>10%</span><span>50%</span><span>95%</span></div>
+        <div class="mt-1 flex justify-between font-mono text-[10px] text-mist/60"><span>10%</span><span>95%</span></div>
         <p id="caption" class="mt-4 text-sm leading-relaxed text-slate-300">&nbsp;</p>
         <p id="sr-status" class="sr-only" aria-live="polite"></p>
       </section>
@@ -122,8 +122,8 @@
         <h2 class="text-sm font-semibold uppercase tracking-widest text-mist">The tide comes in</h2>
         <p class="mt-1 text-sm leading-relaxed text-mist/90">
           Re-scoring each cohort at 0, 7, 30, and 90 days after disclosure: crossings per 1,000
-          CVEs. Fresh CVEs are <em>un-priced</em>: the crest arrives weeks after the rain. Hollow
-          points are horizons still maturing (lower bounds).
+          CVEs. A fresh CVE usually scores low the day it lands; the danger surfaces over the
+          following weeks. Hollow points are horizons still maturing (lower bounds).
         </p>
         <div id="maturation" class="mt-2 w-full"></div>
       </section>
@@ -134,9 +134,10 @@
         <p class="mt-2 text-sm leading-relaxed text-mist">
           Your triage capacity is fixed. It does not grow because disclosures did. The losing move is
           fighting the rainfall total. The winning move is watching the flood stage and sandbagging
-          early: prioritize by EPSS as it climbs, patch what reaches CISA KEV first, and treat fresh
-          CVEs as <strong class="text-mist">un-priced, not safe</strong>, risky precisely because
-          their crest has not arrived. Watch the water rise; stack sandbags where it will come over.
+          early: prioritize by EPSS as it climbs, patch what reaches CISA KEV first, and treat
+          a fresh CVE's low score as <strong class="text-mist">provisional, not safe</strong>, risky
+          precisely because its crest has not arrived. Watch the water rise; stack sandbags where it
+          will come over.
         </p>
       </section>
 
@@ -152,17 +153,17 @@
 
       <!-- How we read the gauge -->
       <section class="mt-4 rounded-2xl border border-edge bg-panel p-5 sm:p-6">
-        <h2 class="text-sm font-semibold uppercase tracking-widest text-mist">How we read the gauge</h2>
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-mist">How the gauge works</h2>
         <p class="mt-2 text-sm leading-relaxed text-mist/90">
-          This is a <strong class="text-mist">monitor, not a prophecy</strong>. We score each day's
-          cohort against the dated, point-in-time EPSS archive, frozen as it stood that day, and
-          re-measure at fixed horizons (0, 7, 30, and 90 days), so we never judge yesterday's CVEs by
-          today's scores. If the dangerous subset ever starts tracking total volume, that is the flood
-          arriving, and the gauge will show it.
+          This is a <strong class="text-mist">monitor, not a prophecy</strong>. Each day's cohort is
+          scored against the dated, point-in-time EPSS archive, frozen as it stood that day, then
+          re-measured at fixed horizons (0, 7, 30, and 90 days), so yesterday's CVEs are never judged
+          by today's scores. If the dangerous subset ever starts tracking total volume, that is the
+          flood arriving, and the gauge will show it.
         </p>
         <p class="mt-3 text-xs leading-relaxed text-mist/70">
           Honest limits: EPSS is a modeled exploitation <em>probability</em>, not a verdict, and it
-          lags genuinely novel bugs, so we pair it with CISA KEV (confirmed exploitation). KEV itself
+          lags genuinely novel bugs, so it is paired with CISA KEV (confirmed exploitation). KEV itself
           lags disclosure by months, which makes recent counts lower bounds. This is a
           population-level view, not the water at any one organization's door. None of it means new
           CVEs are safe to ignore.

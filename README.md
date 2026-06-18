@@ -4,7 +4,7 @@ A daily-updating static site visualizing CVE volume vs. exploitability over
 time, building on FIRST.org's June 2026 vulnerability forecast by Jerry Gamblin
 and Eireann Leverett.
 
-**The thesis:** new CVEs arrive *un-priced*. Of ~19,500 disclosed in a quarter,
+**The thesis:** new CVEs arrive with low scores. Of ~19,500 disclosed in a quarter,
 only a handful look high-risk the day they land, but the risk **matures in over
 the following weeks** (EPSS climbs, CISA KEV listings arrive). Volume is the
 rain; the real signal is the tide coming in behind it. The work isn't patching
@@ -21,7 +21,7 @@ their disclosure day, but **~35** of the same cohorts crossed within **30 days**
 and **~41** landed in CISA KEV. Re-scored at fixed horizons, crossings per 1,000
 CVEs climb roughly **0.3 → 1.3 → 2.7 → 9.2** at day 0 / +7 / +30 / +90. So the
 near-zero day-one number is *not* the whole story, it's a snapshot taken before
-the risk is priced in. ~9% of raw "volume" is backfilled old CVE IDs (shown
+the danger has surfaced. ~9% of raw "volume" is backfilled old CVE IDs (shown
 net), and the CVEs that do cross are recognizable (Cisco, Ivanti, Palo Alto,
 NetScaler, Apache, cPanel …), the site names them.
 
