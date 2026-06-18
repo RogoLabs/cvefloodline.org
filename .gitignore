@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Vite
+web/node_modules/
+web/dist/
+web/public/data/
+web/public/og.png
+
+# OS
+.DS_Store
+
+# Local tooling
+.claude/

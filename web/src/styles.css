@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background:
+      radial-gradient(1200px 600px at 50% -10%, rgba(56, 189, 248, 0.08), transparent 60%),
+      theme("colors.ink");
+  }
+  a.link {
+    color: theme("colors.rain");
+    text-decoration: underline;
+    text-decoration-color: rgba(56, 189, 248, 0.35);
+    text-underline-offset: 2px;
+  }
+  a.link:hover {
+    color: #7dd3fc;
+  }
+  /* Let the browser balance line breaks: no orphans or awkward rag in prose,
+     even lines in headings. */
+  p {
+    text-wrap: pretty;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  /* The centerpiece slider, a precision instrument dial. */
+  .floodslider {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    border-radius: 9999px;
+    background: linear-gradient(
+      90deg,
+      theme("colors.flood") 0%,
+      theme("colors.floodDeep") 100%
+    );
+    outline: none;
+  }
+  .floodslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 9999px;
+    background: #fff7ed;
+    border: 3px solid theme("colors.flood");
+    box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.18), 0 2px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .floodslider::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    border-radius: 9999px;
+    background: #fff7ed;
+    border: 3px solid theme("colors.flood");
+    cursor: pointer;
+  }
+}
+
+/* D3 chart styling. */
+.chart-axis text {
+  fill: theme("colors.mist");
+  font-size: 11px;
+  font-family: theme("fontFamily.mono");
+}
+.chart-axis path,
+.chart-axis line {
+  stroke: theme("colors.edge");
+}
+.chart-grid line {
+  stroke: rgba(34, 48, 74, 0.5);
+  shape-rendering: crispEdges;
+}
+
+@keyframes dotIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #tooltip {
+    transition: none !important;
+  }
+  /* No dot fade-in animation; ensure dots are visible. */
+  #funnel circle {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+  min-width: 160px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid theme("colors.edge");
+  background: rgba(7, 11, 20, 0.94);
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0;
+  transform: translate(-50%, -110%);
+  transition: opacity 120ms ease;
+}

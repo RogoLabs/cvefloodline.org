@@ -1,0 +1,27 @@
+{
+  "name": "cvefloodline-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "copy-data": "node scripts/copy-data.mjs",
+    "make-og": "node scripts/make-og.mjs",
+    "predev": "npm run copy-data && npm run make-og",
+    "dev": "vite",
+    "prebuild": "npm run copy-data && npm run make-og",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "sharp": "^0.35.1",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}

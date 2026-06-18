@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CVE Floodline: AI is bringing the rain, not the flood</title>
+    <meta name="description" content="AI-assisted bug hunting is driving a record surge in CVE volume, the rain. The small subset that is actually dangerous has barely moved. A daily flood gauge for vulnerability disclosure." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cvefloodline.org/" />
+    <meta property="og:title" content="AI is bringing the rain, not the flood" />
+    <meta property="og:description" content="AI-assisted bug hunting is driving a record surge in CVE volume. The share that is actually dangerous has barely moved. The river is high; it is not over the levee." />
+    <meta property="og:image" content="https://cvefloodline.org/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI is bringing the rain, not the flood" />
+    <meta name="twitter:description" content="A record surge in CVE volume; the dangerous subset has barely moved. The river is high; it is not over the levee." />
+    <meta name="twitter:image" content="https://cvefloodline.org/og.png" />
+
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body class="bg-ink text-slate-200 font-sans antialiased">
+    <div class="mx-auto max-w-6xl px-4 py-8 sm:py-12">
+      <!-- Header -->
+      <header class="mb-6">
+        <p class="font-mono text-xs uppercase tracking-[0.25em] text-rain/80">
+          cvefloodline.org · vulnerability weather
+        </p>
+        <h1 class="mt-2 text-3xl font-semibold leading-[1.05] text-white sm:text-5xl xl:text-6xl">
+          <span class="whitespace-nowrap">AI is bringing the rain,</span>
+          <span class="whitespace-nowrap text-flood">not the flood.</span>
+        </h1>
+        <p class="mt-5 text-base leading-relaxed text-mist sm:text-lg">
+          AI-assisted bug hunting is driving the biggest surge in CVE <em>volume</em> on
+          record. The share that is actually dangerous has barely moved. The river is
+          running high; it is not over the levee. This gauge watches the line that matters:
+          not how hard it is raining, but how high the water actually rises.
+        </p>
+      </header>
+
+      <!-- Waterline hero: the thesis in one glance -->
+      <section class="rounded-2xl border border-edge bg-panel p-5 shadow-2xl sm:p-6">
+        <div class="mb-2 flex flex-wrap gap-4 font-mono text-[11px]">
+          <span class="inline-flex items-center gap-1.5"><span class="inline-block h-2 w-3 rounded-sm bg-rain/70"></span> rain · all CVEs per day</span>
+          <span class="inline-flex items-center gap-1.5"><span class="inline-block h-0.5 w-4 bg-flood"></span> flood line · dangerous on day one</span>
+        </div>
+        <div id="hero" class="w-full"></div>
+      </section>
+
+      <!-- The storm is real (AI / volume) -->
+      <section class="mt-4 rounded-2xl border border-edge bg-panel p-5 sm:p-6">
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-mist">The storm is real</h2>
+        <p class="mt-1 max-w-3xl text-sm leading-relaxed text-mist/90">
+          The surge is not a rumor; it is in the disclosure feeds. AI-assisted research turned up
+          the rainfall rate, and the 2026 projection is <strong class="text-white">~66,000 CVEs</strong>,
+          about <strong class="text-white">46%</strong> above the prior forecast.
+        </p>
+        <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
+          <div class="rounded-xl border border-edge bg-panel2 p-4">
+            <div class="text-2xl font-semibold text-rain">+164%</div>
+            <div class="mt-1 text-sm text-mist">Mozilla Q1 disclosures</div>
+          </div>
+          <div class="rounded-xl border border-edge bg-panel2 p-4">
+            <div class="text-2xl font-semibold text-rain">+449%</div>
+            <div class="mt-1 text-sm text-mist">GitHub Security Advisories, YoY</div>
+          </div>
+          <div class="rounded-xl border border-edge bg-panel2 p-4">
+            <div class="text-2xl font-semibold text-rain" id="rain-rate">~210/day</div>
+            <div class="mt-1 text-sm text-mist">CVEs published, last 90 days</div>
+          </div>
+        </div>
+        <p class="mt-3 max-w-3xl text-xs leading-relaxed text-mist/70">
+          We did not tag a single CVE as “AI-found.” We read the population curve, and the curve
+          bent when the tools arrived. (One CNA clearing an AI-surfaced backlog posted +3,119%.)
+          About <span id="backfill-pct">9%</span> of the total is <em>phantom rain</em>, old CVE
+          IDs re-published, shown net below.
+        </p>
+        <div class="mt-4">
+          <div class="mb-1 flex flex-wrap gap-4 font-mono text-[11px]">
+            <span class="inline-flex items-center gap-1.5"><span class="inline-block h-2 w-3 rounded-sm bg-rain/70"></span> new CVEs</span>
+            <span class="inline-flex items-center gap-1.5"><span class="inline-block h-2 w-3 rounded-sm bg-rain/30"></span> + phantom rain (backfill)</span>
+            <span class="inline-flex items-center gap-1.5"><span class="inline-block h-1 w-3 bg-kev"></span> day produced a future-KEV CVE</span>
+          </div>
+          <div id="volume" class="relative w-full"></div>
+        </div>
+      </section>
+
+      <!-- Threshold control -->
+      <section class="mt-4 rounded-2xl border border-edge bg-panel2 p-5 sm:p-6" aria-label="Flood-stage control">
+        <div class="flex items-baseline justify-between">
+          <label for="threshold" class="font-mono text-xs uppercase tracking-widest text-mist">
+            Flood stage · EPSS threshold
+          </label>
+          <output id="threshold-value" for="threshold" class="font-mono text-xl font-semibold text-flood">10%</output>
+        </div>
+        <input id="threshold" type="range" min="10" max="95" step="5" value="10"
+               class="floodslider mt-3 w-full" aria-describedby="caption" />
+        <div class="mt-1 flex justify-between font-mono text-[10px] text-mist/60"><span>10%</span><span>50%</span><span>95%</span></div>
+        <p id="caption" class="mt-4 max-w-4xl text-sm leading-relaxed text-slate-300">&nbsp;</p>
+        <p id="sr-status" class="sr-only" aria-live="polite"></p>
+      </section>
+
+      <!-- High water isn't a flood -->
+      <section class="mt-4 rounded-2xl border border-edge bg-panel p-5 sm:p-6">
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-mist">High water isn't a flood</h2>
+        <p class="mt-1 max-w-3xl text-sm leading-relaxed text-mist/90">
+          Of the whole storm, only a sliver ever tops the levee. One dot below is lit:
+          the rough rate at which a new CVE turns dangerous.
+        </p>
+        <div id="funnel" class="mt-4 w-full"></div>
+        <hr class="my-6 border-edge" />
+        <h3 class="text-sm font-semibold text-mist">Day one vs. a month later</h3>
+        <p class="mt-1 text-sm text-mist/80">
+          The water crests slowly. Drag the slider: how many of the same cohorts cross at
+          disclosure, and how many after maturing 30 days.
+        </p>
+        <div id="slope" class="mt-2 w-full"></div>
+        <p id="slope-note" class="font-mono text-[10px] text-mist/60">&nbsp;</p>
+      </section>
+
+      <!-- The tide comes in -->
+      <section class="mt-4 rounded-2xl border border-edge bg-panel p-5 sm:p-6">
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-mist">The tide comes in</h2>
+        <p class="mt-1 max-w-3xl text-sm leading-relaxed text-mist/90">
+          Re-scoring each cohort at 0, 7, 30, and 90 days after disclosure: crossings per 1,000
+          CVEs. Fresh CVEs are <em>un-priced</em>: the crest arrives weeks after the rain. Hollow
+          points are horizons still maturing (lower bounds).
+        </p>
+        <div id="maturation" class="mt-2 w-full"></div>
+      </section>
+
+      <!-- Reinforce the levee -->
+      <section class="mt-4 rounded-2xl border border-edge bg-panel2 p-5 sm:p-6">
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-flood/80">Reinforce the levee, don't bail the rain</h2>
+        <p class="mt-2 max-w-3xl text-sm leading-relaxed text-mist">
+          Your triage capacity is fixed. It does not grow because disclosures did. The losing move is
+          fighting the rainfall total. The winning move is watching the flood stage and sandbagging
+          early: prioritize by EPSS as it climbs, patch what reaches CISA KEV first, and treat fresh
+          CVEs as <strong class="text-mist">un-priced, not safe</strong>, risky precisely because
+          their crest has not arrived. Watch the water rise; stack sandbags where it will come over.
+        </p>
+      </section>
+
+      <!-- These topped the levee -->
+      <section class="mt-4 rounded-2xl border border-edge bg-panel p-5 sm:p-6">
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-mist">These topped the levee</h2>
+        <p class="mt-1 max-w-3xl text-sm leading-relaxed text-mist/90">
+          The water that rises is rarely a surprise: the names you already brace for. Each climbed
+          from a quiet EPSS score on disclosure day to a dangerous one within weeks.
+        </p>
+        <div id="floodlist" class="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3"></div>
+      </section>
+
+      <!-- How we read the gauge -->
+      <section class="mt-4 rounded-2xl border border-edge bg-panel p-5 sm:p-6">
+        <h2 class="text-sm font-semibold uppercase tracking-widest text-mist">How we read the gauge</h2>
+        <p class="mt-2 max-w-3xl text-sm leading-relaxed text-mist/90">
+          This is a <strong class="text-mist">monitor, not a prophecy</strong>. We score each day's
+          cohort against the dated, point-in-time EPSS archive, frozen as it stood that day, and
+          re-measure at fixed horizons (0, 7, 30, and 90 days), so we never judge yesterday's CVEs by
+          today's scores. If the dangerous subset ever starts tracking total volume, that is the flood
+          arriving, and the gauge will show it.
+        </p>
+        <p class="mt-3 max-w-3xl text-xs leading-relaxed text-mist/70">
+          Honest limits: EPSS is a modeled exploitation <em>probability</em>, not a verdict, and it
+          lags genuinely novel bugs, so we pair it with CISA KEV (confirmed exploitation). KEV itself
+          lags disclosure by months, which makes recent counts lower bounds. This is a
+          population-level view, not the water at any one organization's door. None of it means new
+          CVEs are safe to ignore.
+        </p>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-8 border-t border-edge pt-6 text-xs leading-relaxed text-mist">
+        <p id="footer-generated" class="font-mono text-mist/70">&nbsp;</p>
+        <p class="mt-3">
+          Built on the
+          <a class="link" href="https://www.first.org/blog/20260615-vulnerability-forecast-update">FIRST.org 2026 vulnerability forecast</a>
+          by Jerry&nbsp;Gamblin and Eireann&nbsp;Leverett; methodology from
+          <a class="link" href="https://github.com/jgamblin/FirstForecast">FirstForecast</a>.
+        </p>
+        <p class="mt-2">
+          Data: point-in-time
+          <a class="link" href="https://github.com/empiricalsec/epss_scores">EPSS daily archive</a>
+          (an Empirical Security mirror of the FIRST EPSS SIG) ·
+          <a class="link" href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a> ·
+          <a class="link" href="https://github.com/CVEProject/cvelistV5">CVE List V5</a>.
+          Methodology &amp; licenses in the
+          <a class="link" href="https://github.com/jgamblin/cvefloodline.org">repository</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

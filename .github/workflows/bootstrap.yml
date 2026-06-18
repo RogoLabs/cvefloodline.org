@@ -1,0 +1,49 @@
+name: Bootstrap floodline (manual)
+
+# One-time seed / recovery. Rebuilds the full trailing window from the dated
+# EPSS archive and cvelistV5 end-of-day deltas, overwriting data/floodline.json.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: floodline-data
+  cancel-in-progress: false
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run bootstrap
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python pipeline/bootstrap.py
+
+      - name: Commit seeded data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/; then
+            echo "No data change."
+            exit 0
+          fi
+          git add data/floodline.json data/cohorts.json
+          git commit -m "data: bootstrap floodline window ($(date -u +%F))"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push failed (attempt $attempt); rebasing on latest main"
+            git pull --rebase origin main
+          done
+          echo "push failed after retries" >&2
+          exit 1
