@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T12:22:50Z",
+  "generated": "2026-06-28T12:23:17Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -10,159 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-06-25",
-  "latest_epss_date": "2026-06-26",
+  "latest_epss_date": "2026-06-27",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 19321,
-    "backfilled": 1720,
-    "net_total": 17601,
-    "kev": 44,
+    "total": 19647,
+    "backfilled": 1713,
+    "net_total": 17934,
+    "kev": 43,
     "cross10_pit": 6,
     "mature_horizon": 30,
-    "cross10_matured": 32,
+    "cross10_matured": 31,
     "matured_eligible_days": 59,
-    "matured_eligible_total": 12306
+    "matured_eligible_total": 12711
   },
   "days": [
-    {
-      "date": "2026-03-30",
-      "epss_model_version": "v2025.03.14",
-      "total": 141,
-      "backfilled": 21,
-      "net_total": 120,
-      "kev": 1,
-      "kev_lag_median": 3,
-      "epss_p90": 0.00092,
-      "epss_max": 0.02949,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00092,
-          "max": 0.02949,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.001,
-          "max": 0.19613,
-          "coverage": 0.9929,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00106,
-          "max": 0.2424,
-          "coverage": 0.9929,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-3502",
-          "vendor": "TrueConf",
-          "product": "TrueConf Client",
-          "title": "TrueConf Client Update Integrity Verification Bypass",
-          "epss0": 9e-05,
-          "epss_peak": 0.02421,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-4257",
-          "vendor": "supsysticcom",
-          "product": "Contact Form by Supsystic",
-          "title": "Contact Form by Supsystic <= 1.7.36 - Unauthenticated Server-Side Template Injection via Prefill Functionality",
-          "epss0": 0.00218,
-          "epss_peak": 0.2424,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-33032",
-          "vendor": "0xJacky",
-          "product": "nginx-ui",
-          "title": "Nginx UI: Unauthenticated MCP Endpoint Allows Remote Nginx Takeover",
-          "epss0": 0.0005,
-          "epss_peak": 0.09321,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-03-31",
       "epss_model_version": "v2025.03.14",
@@ -7338,7 +7199,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.0041,
+          "max": 0.02501,
+          "coverage": 0.9963,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -9672,6 +9557,69 @@
         "0": {
           "p90": 0.00451,
           "max": 0.02902,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-06-25",
+      "epss_model_version": "v2026.06.15",
+      "total": 467,
+      "backfilled": 14,
+      "net_total": 453,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00365,
+      "epss_max": 0.01002,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00365,
+          "max": 0.01002,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
