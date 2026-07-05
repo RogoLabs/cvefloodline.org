@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-04T12:56:11Z",
+  "generated": "2026-07-05T13:03:24Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -10,150 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-07-01",
-  "latest_epss_date": "2026-07-03",
+  "latest_epss_date": "2026-07-04",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 20144,
-    "backfilled": 1613,
-    "net_total": 18531,
+    "total": 20149,
+    "backfilled": 1611,
+    "net_total": 18538,
     "kev": 43,
     "cross10_pit": 6,
     "mature_horizon": 30,
-    "cross10_matured": 30,
+    "cross10_matured": 32,
     "matured_eligible_days": 59,
-    "matured_eligible_total": 12655
+    "matured_eligible_total": 13023
   },
   "days": [
-    {
-      "date": "2026-04-06",
-      "epss_model_version": "v2025.03.14",
-      "total": 259,
-      "backfilled": 17,
-      "net_total": 242,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00077,
-      "epss_max": 0.02365,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00077,
-          "max": 0.02365,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00155,
-          "max": 0.05708,
-          "coverage": 0.9923,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00147,
-          "max": 0.13296,
-          "coverage": 0.9923,
-          "thresholds": {
-            "10": 1,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-35029",
-          "vendor": "BerriAI",
-          "product": "litellm",
-          "title": "LiteLLM affected by privilege escalation via unrestricted proxy configuration endpoint",
-          "epss0": 0.00334,
-          "epss_peak": 0.13296,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-34885",
-          "vendor": "David Lingren",
-          "product": "Media LIbrary Assistant",
-          "title": "WordPress Media LIbrary Assistant plugin <= 3.34 - SQL Injection vulnerability",
-          "epss0": 0.0003,
-          "epss_peak": 0.05708,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-04-07",
       "epss_model_version": "v2025.03.14",
@@ -6633,7 +6503,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-10060",
+          "id": "CVE-2026-10061",
           "vendor": "",
           "product": "",
           "title": "",
@@ -6642,7 +6512,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-10061",
+          "id": "CVE-2026-10060",
           "vendor": "",
           "product": "",
           "title": "",
@@ -7318,27 +7188,69 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00389,
+          "max": 0.29641,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 3,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
-        {
-          "id": "CVE-2026-28318",
-          "vendor": "SolarWinds",
-          "product": "Serv-U",
-          "title": "SolarWinds Serv-U Unauthenticated Denial of Service Vulnerability",
-          "epss0": 0.00062,
-          "epss_peak": 0.07837,
-          "kev": true
-        },
         {
           "id": "CVE-2026-20245",
           "vendor": "Cisco",
           "product": "Cisco Catalyst SD-WAN Controller",
           "title": "Cisco Catalyst SD-WAN Controller Authenticated Privilege Escalation Vulnerability",
           "epss0": 0.00083,
-          "epss_peak": 0.00356,
+          "epss_peak": 0.25323,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-28318",
+          "vendor": "SolarWinds",
+          "product": "Serv-U",
+          "title": "SolarWinds Serv-U Unauthenticated Denial of Service Vulnerability",
+          "epss0": 0.00062,
+          "epss_peak": 0.10659,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-8037",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.003,
+          "epss_peak": 0.29641,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-42824",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00082,
+          "epss_peak": 0.0764,
+          "kev": false
         }
       ]
     },
@@ -9388,7 +9300,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00298,
+          "max": 0.00662,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9618,6 +9554,69 @@
         "0": {
           "p90": 0.00531,
           "max": 0.02422,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-07-02",
+      "epss_model_version": "v2026.06.15",
+      "total": 264,
+      "backfilled": 15,
+      "net_total": 249,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00502,
+      "epss_max": 0.02651,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00502,
+          "max": 0.02651,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
