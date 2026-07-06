@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05T13:03:24Z",
+  "generated": "2026-07-06T14:53:20Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -10,168 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-07-01",
-  "latest_epss_date": "2026-07-04",
+  "latest_epss_date": "2026-07-06",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 20149,
-    "backfilled": 1611,
-    "net_total": 18538,
-    "kev": 43,
-    "cross10_pit": 6,
+    "total": 20050,
+    "backfilled": 1589,
+    "net_total": 18461,
+    "kev": 42,
+    "cross10_pit": 7,
     "mature_horizon": 30,
-    "cross10_matured": 32,
-    "matured_eligible_days": 59,
-    "matured_eligible_total": 13023
+    "cross10_matured": 33,
+    "matured_eligible_days": 60,
+    "matured_eligible_total": 12952
   },
   "days": [
-    {
-      "date": "2026-04-07",
-      "epss_model_version": "v2025.03.14",
-      "total": 279,
-      "backfilled": 24,
-      "net_total": 255,
-      "kev": 1,
-      "kev_lag_median": 9,
-      "epss_p90": 0.00084,
-      "epss_max": 0.0312,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00084,
-          "max": 0.0312,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00121,
-          "max": 0.06217,
-          "coverage": 0.9857,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00134,
-          "max": 0.66671,
-          "coverage": 0.9857,
-          "thresholds": {
-            "10": 2,
-            "15": 2,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 1,
-            "60": 1,
-            "65": 1,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-34197",
-          "vendor": "Apache Software Foundation",
-          "product": "Apache ActiveMQ Broker",
-          "title": "Apache ActiveMQ Broker, Apache ActiveMQ All, Apache ActiveMQ: Authenticated users could perform RCE via Jolokia MBeans",
-          "epss0": 0.0006,
-          "epss_peak": 0.66671,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-39339",
-          "vendor": "ChurchCRM",
-          "product": "CRM",
-          "title": "ChurchCRM has an API Authentication Bypass",
-          "epss0": 0.00097,
-          "epss_peak": 0.15714,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-33439",
-          "vendor": "OpenIdentityPlatform",
-          "product": "OpenAM",
-          "title": "Pre-Authentication Remote Code Execution via `jato.clientSession` Deserialization in OpenAM",
-          "epss0": 0.00101,
-          "epss_peak": 0.07004,
-          "kev": false
-        },
-        {
-          "id": "CVE-2021-4473",
-          "vendor": "Beijing Topsec Network Security Technology Co., Ltd.",
-          "product": "Tianxin Internet Behavior Management System",
-          "title": "Tianxin Internet Behavior Management System Command Injection via toQuery.php",
-          "epss0": 0.0059,
-          "epss_peak": 0.05427,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-04-08",
       "epss_model_version": "v2025.03.14",
@@ -6503,7 +6355,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-10061",
+          "id": "CVE-2026-10060",
           "vendor": "",
           "product": "",
           "title": "",
@@ -6512,7 +6364,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-10060",
+          "id": "CVE-2026-10061",
           "vendor": "",
           "product": "",
           "title": "",
@@ -7336,10 +7188,43 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00727,
+          "max": 0.80425,
+          "coverage": 0.9941,
+          "thresholds": {
+            "10": 3,
+            "15": 1,
+            "20": 1,
+            "25": 1,
+            "30": 1,
+            "35": 1,
+            "40": 1,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 1,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "80": 1,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
+        {
+          "id": "CVE-2026-48907",
+          "vendor": "joomlacontenteditor.net",
+          "product": "Joomla Content Editor (JCE) extension for Joomla",
+          "title": "Joomla Extension - joomlacontenteditor.net - Remote Code Execution in JCE extension for Joomla < 2.9.99.5",
+          "epss0": 0.00111,
+          "epss_peak": 0.80425,
+          "kev": true
+        },
         {
           "id": "CVE-2026-7473",
           "vendor": "Arista Networks",
@@ -7347,15 +7232,6 @@
           "title": "Arista EOS Unexpected Tunnel Protocol Decapsulation and Forwarding Bypass",
           "epss0": 0.00029,
           "epss_peak": 0.2722,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-48907",
-          "vendor": "joomlacontenteditor.net",
-          "product": "Joomla Content Editor (JCE) extension for Joomla",
-          "title": "Joomla Extension - joomlacontenteditor.net - Remote Code Execution in JCE extension for Joomla < 2.9.99.5",
-          "epss0": 0.00111,
-          "epss_peak": 0.00146,
           "kev": true
         },
         {
@@ -7368,12 +7244,21 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-49777",
-          "vendor": "ShapedPlugin, LLC",
-          "product": "Product Slider Pro for WooCommerce",
-          "title": "WordPress Product Slider Pro for WooCommerce plugin < 3.5.4 - Backdoor vulnerability",
-          "epss0": 0.00063,
-          "epss_peak": 0.06553,
+          "id": "CVE-2026-25620",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00222,
+          "epss_peak": 0.10245,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-25622",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00222,
+          "epss_peak": 0.10245,
           "kev": false
         }
       ]
@@ -7460,10 +7345,44 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.0069,
+          "max": 0.0515,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-7665",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00055,
+          "epss_peak": 0.0515,
+          "kev": false
+        }
+      ]
     },
     {
       "date": "2026-06-07",
@@ -9387,7 +9306,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00472,
+          "max": 0.00678,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9450,7 +9393,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00466,
+          "max": 0.03016,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9644,6 +9611,79 @@
         "90": null
       },
       "named": []
+    },
+    {
+      "date": "2026-07-03",
+      "epss_model_version": "v2026.06.15",
+      "total": 180,
+      "backfilled": 2,
+      "net_total": 178,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.0053,
+      "epss_max": 0.40738,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 1,
+        "15": 1,
+        "20": 1,
+        "25": 1,
+        "30": 1,
+        "35": 1,
+        "40": 1,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.0053,
+          "max": 0.40738,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 1,
+            "30": 1,
+            "35": 1,
+            "40": 1,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-27771",
+          "vendor": "Gitea",
+          "product": "Gitea Open Source Git Server",
+          "title": "Gitea Composer package source links use insufficient permission checks",
+          "epss0": 0.40738,
+          "epss_peak": 0.40738,
+          "kev": false
+        }
+      ]
     }
   ]
 }
