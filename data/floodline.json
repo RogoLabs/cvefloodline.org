@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T13:05:42Z",
+  "generated": "2026-07-16T13:14:07Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -9,142 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-07-14",
-  "latest_epss_date": "2026-07-14",
+  "kev_snapshot_date": "2026-07-15",
+  "latest_epss_date": "2026-07-15",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 19668,
-    "backfilled": 1473,
-    "net_total": 18195,
-    "kev": 41,
+    "total": 19837,
+    "backfilled": 1463,
+    "net_total": 18374,
+    "kev": 42,
     "cross10_pit": 7,
     "mature_horizon": 30,
-    "cross10_matured": 41,
+    "cross10_matured": 40,
     "matured_eligible_days": 59,
-    "matured_eligible_total": 12728
+    "matured_eligible_total": 12959
   },
   "days": [
-    {
-      "date": "2026-04-17",
-      "epss_model_version": "v2025.03.14",
-      "total": 166,
-      "backfilled": 11,
-      "net_total": 155,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.0011,
-      "epss_max": 0.0085,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.0011,
-          "max": 0.0085,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.0011,
-          "max": 0.29108,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00122,
-          "max": 0.29108,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-2262",
-          "vendor": "easyappointments",
-          "product": "Easy Appointments",
-          "title": "Easy Appointments <= 3.12.21 - Unauthenticated Sensitive Information Exposure via REST API",
-          "epss0": 0.00041,
-          "epss_peak": 0.29108,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-04-18",
       "epss_model_version": "v2025.03.14",
@@ -5055,8 +4934,8 @@
       "total": 546,
       "backfilled": 3,
       "net_total": 543,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 48,
       "epss_p90": 0.0008,
       "epss_max": 0.00284,
       "coverage": 1.0,
@@ -5158,7 +5037,17 @@
         },
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-46817",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00043,
+          "epss_peak": 0.00418,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-05-29",
@@ -7420,7 +7309,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00476,
+          "max": 0.07683,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7430,7 +7343,7 @@
           "product": "Cisco Catalyst SD-WAN Manager",
           "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Write Vulnerability",
           "epss0": 0.01741,
-          "epss_peak": 0.01741,
+          "epss_peak": 0.07683,
           "kev": true
         }
       ]
@@ -9379,7 +9292,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00442,
+          "max": 0.01803,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9619,6 +9556,69 @@
         "0": {
           "p90": 0.00459,
           "max": 0.0269,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-07-13",
+      "epss_model_version": "v2026.06.15",
+      "total": 335,
+      "backfilled": 1,
+      "net_total": 334,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00496,
+      "epss_max": 0.02165,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00496,
+          "max": 0.02165,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
