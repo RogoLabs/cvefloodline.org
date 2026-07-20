@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T12:47:13Z",
+  "generated": "2026-07-20T13:44:12Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -10,168 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-07-16",
-  "latest_epss_date": "2026-07-18",
+  "latest_epss_date": "2026-07-20",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 21119,
-    "backfilled": 1490,
-    "net_total": 19629,
+    "total": 21041,
+    "backfilled": 1498,
+    "net_total": 19543,
     "kev": 48,
     "cross10_pit": 13,
     "mature_horizon": 30,
-    "cross10_matured": 40,
+    "cross10_matured": 39,
     "matured_eligible_days": 59,
-    "matured_eligible_total": 13803
+    "matured_eligible_total": 13644
   },
   "days": [
-    {
-      "date": "2026-04-21",
-      "epss_model_version": "v2025.03.14",
-      "total": 354,
-      "backfilled": 12,
-      "net_total": 342,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00055,
-      "epss_max": 0.06342,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00055,
-          "max": 0.06342,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00091,
-          "max": 0.13208,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00094,
-          "max": 0.13208,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-38834",
-          "vendor": "",
-          "product": "n/a",
-          "title": "",
-          "epss0": 0.02578,
-          "epss_peak": 0.13208,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-5965",
-          "vendor": "NewSoft",
-          "product": "NewSoftOA",
-          "title": "NewSoft\uff5cNewSoftOA - OS Command Injection",
-          "epss0": 0.06342,
-          "epss_peak": 0.08659,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-40878",
-          "vendor": "mailcow",
-          "product": "mailcow-dockerized",
-          "title": "mailcow-dockerized Login Page has Reflected Parameter Injection / Wrong-Context XSS Escaping",
-          "epss0": 0.00047,
-          "epss_peak": 0.05695,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-40887",
-          "vendor": "vendurehq",
-          "product": "vendure",
-          "title": "@vendure/core has a SQL Injection vulnerability",
-          "epss0": 0.04561,
-          "epss_peak": 0.0538,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-04-22",
       "epss_model_version": "v2025.03.14",
@@ -5725,7 +5577,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-25622",
+          "id": "CVE-2026-25620",
           "vendor": "",
           "product": "",
           "title": "",
@@ -5734,7 +5586,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-25620",
+          "id": "CVE-2026-25622",
           "vendor": "",
           "product": "",
           "title": "",
@@ -7440,7 +7292,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00437,
+          "max": 0.01277,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -9389,7 +9265,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.0105,
+          "max": 0.0269,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9452,7 +9352,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00496,
+          "max": 0.02165,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9699,6 +9623,79 @@
           "title": "",
           "epss0": 0.05447,
           "epss_peak": 0.05447,
+          "kev": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "epss_model_version": "v2026.06.15",
+      "total": 276,
+      "backfilled": 20,
+      "net_total": 256,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00502,
+      "epss_max": 0.08946,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00502,
+          "max": 0.08946,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-63030",
+          "vendor": "WordPress",
+          "product": "WordPress",
+          "title": "WordPress < 7.0.2 - REST API batch-route confusion and SQL injection issue leading to Remote Code Execution",
+          "epss0": 0.08946,
+          "epss_peak": 0.08946,
           "kev": false
         }
       ]
