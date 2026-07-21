@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20T13:44:12Z",
+  "generated": "2026-07-21T13:11:23Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -13,147 +13,17 @@
   "latest_epss_date": "2026-07-20",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 21041,
-    "backfilled": 1498,
-    "net_total": 19543,
-    "kev": 48,
+    "total": 20785,
+    "backfilled": 1503,
+    "net_total": 19282,
+    "kev": 47,
     "cross10_pit": 13,
     "mature_horizon": 30,
-    "cross10_matured": 39,
-    "matured_eligible_days": 59,
-    "matured_eligible_total": 13644
+    "cross10_matured": 38,
+    "matured_eligible_days": 58,
+    "matured_eligible_total": 13307
   },
   "days": [
-    {
-      "date": "2026-04-22",
-      "epss_model_version": "v2025.03.14",
-      "total": 337,
-      "backfilled": 19,
-      "net_total": 318,
-      "kev": 1,
-      "kev_lag_median": 9,
-      "epss_p90": 0.00042,
-      "epss_max": 0.00367,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00042,
-          "max": 0.00367,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00066,
-          "max": 0.063,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00061,
-          "max": 0.15627,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-31431",
-          "vendor": "Linux",
-          "product": "Linux",
-          "title": "crypto: algif_aead - Revert to operating out-of-place",
-          "epss0": 7e-05,
-          "epss_peak": 0.02421,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-41176",
-          "vendor": "rclone",
-          "product": "rclone",
-          "title": "Rclone: Unauthenticated options/set allows runtime auth bypass, leading to sensitive operations and command execution",
-          "epss0": 0.00039,
-          "epss_peak": 0.15627,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-04-23",
       "epss_model_version": "v2025.03.14",
@@ -5577,7 +5447,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-25620",
+          "id": "CVE-2026-25622",
           "vendor": "",
           "product": "",
           "title": "",
@@ -5586,7 +5456,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-25622",
+          "id": "CVE-2026-25620",
           "vendor": "",
           "product": "",
           "title": "",
@@ -9699,6 +9569,69 @@
           "kev": false
         }
       ]
+    },
+    {
+      "date": "2026-07-18",
+      "epss_model_version": "v2026.06.15",
+      "total": 81,
+      "backfilled": 24,
+      "net_total": 57,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.0043,
+      "epss_max": 0.00902,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.0043,
+          "max": 0.00902,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
     }
   ]
 }
