@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-21T13:11:23Z",
+  "generated": "2026-07-22T13:17:28Z",
   "window_days": 90,
-  "days_present": 86,
+  "days_present": 85,
   "horizons": [
     0,
     7,
@@ -9,151 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-07-16",
-  "latest_epss_date": "2026-07-20",
+  "kev_snapshot_date": "2026-07-21",
+  "latest_epss_date": "2026-07-21",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 20785,
-    "backfilled": 1503,
-    "net_total": 19282,
-    "kev": 47,
+    "total": 20603,
+    "backfilled": 1495,
+    "net_total": 19108,
+    "kev": 50,
     "cross10_pit": 13,
     "mature_horizon": 30,
-    "cross10_matured": 38,
+    "cross10_matured": 37,
     "matured_eligible_days": 58,
-    "matured_eligible_total": 13307
+    "matured_eligible_total": 13198
   },
   "days": [
-    {
-      "date": "2026-04-23",
-      "epss_model_version": "v2025.03.14",
-      "total": 182,
-      "backfilled": 8,
-      "net_total": 174,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00158,
-      "epss_max": 0.00773,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00158,
-          "max": 0.00773,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00285,
-          "max": 0.09603,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.0029,
-          "max": 0.15612,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-3844",
-          "vendor": "cloudways",
-          "product": "Breeze Cache",
-          "title": "Breeze Cache <= 2.4.4 - Unauthenticated Arbitrary File Upload via fetch_gravatar_from_remote",
-          "epss0": 0.00059,
-          "epss_peak": 0.15612,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-41179",
-          "vendor": "rclone",
-          "product": "rclone",
-          "title": "RClone: Unauthenticated operations/fsinfo allows attacker-controlled backend instantiation and local command execution",
-          "epss0": 0.00067,
-          "epss_peak": 0.09603,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-04-24",
       "epss_model_version": "v2025.03.14",
@@ -7273,7 +7143,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00505,
+          "max": 0.01182,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -9309,7 +9203,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00792,
+          "max": 0.20346,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 5,
+            "15": 4,
+            "20": 1,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9333,21 +9251,21 @@
           "kev": true
         },
         {
+          "id": "CVE-2026-58644",
+          "vendor": "Microsoft",
+          "product": "Microsoft SharePoint Enterprise Server 2016",
+          "title": "Microsoft SharePoint Remote Code Execution Vulnerability",
+          "epss0": 0.01324,
+          "epss_peak": 0.01465,
+          "kev": true
+        },
+        {
           "id": "CVE-2026-15409",
           "vendor": "SonicWall",
           "product": "SMA1000",
           "title": "",
           "epss0": 0.01404,
           "epss_peak": 0.01404,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-58644",
-          "vendor": "Microsoft",
-          "product": "Microsoft SharePoint Enterprise Server 2016",
-          "title": "Microsoft SharePoint Remote Code Execution Vulnerability",
-          "epss0": 0.01324,
-          "epss_peak": 0.01324,
           "kev": true
         },
         {
@@ -9430,8 +9348,8 @@
       "total": 246,
       "backfilled": 13,
       "net_total": 233,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 5,
       "epss_p90": 0.0074,
       "epss_max": 0.05447,
       "coverage": 1.0,
@@ -9493,7 +9411,7 @@
           "title": "",
           "epss0": 0.05447,
           "epss_peak": 0.05447,
-          "kev": false
+          "kev": true
         }
       ]
     },
@@ -9503,8 +9421,8 @@
       "total": 276,
       "backfilled": 20,
       "net_total": 256,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 2,
+      "kev_lag_median": 4,
       "epss_p90": 0.00502,
       "epss_max": 0.08946,
       "coverage": 1.0,
@@ -9566,7 +9484,16 @@
           "title": "WordPress < 7.0.2 - REST API batch-route confusion and SQL injection issue leading to Remote Code Execution",
           "epss0": 0.08946,
           "epss_peak": 0.08946,
-          "kev": false
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-60137",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.04026,
+          "epss_peak": 0.04026,
+          "kev": true
         }
       ]
     },
