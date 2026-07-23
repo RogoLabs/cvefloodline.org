@@ -13,7 +13,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.2",
+    "@tailwindcss/postcss": "^4.3.3",
     "@types/d3": "^7.4.3",
     "autoprefixer": "^10.5.4",
     "postcss": "^8.5.22",
