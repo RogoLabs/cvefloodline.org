@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T13:17:28Z",
+  "generated": "2026-07-23T13:20:15Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -9,142 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-07-21",
-  "latest_epss_date": "2026-07-21",
+  "kev_snapshot_date": "2026-07-22",
+  "latest_epss_date": "2026-07-22",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 20603,
-    "backfilled": 1495,
-    "net_total": 19108,
-    "kev": 50,
+    "total": 20596,
+    "backfilled": 1496,
+    "net_total": 19100,
+    "kev": 51,
     "cross10_pit": 13,
     "mature_horizon": 30,
-    "cross10_matured": 37,
+    "cross10_matured": 36,
     "matured_eligible_days": 58,
-    "matured_eligible_total": 13198
+    "matured_eligible_total": 13139
   },
   "days": [
-    {
-      "date": "2026-04-24",
-      "epss_model_version": "v2025.03.14",
-      "total": 276,
-      "backfilled": 5,
-      "net_total": 271,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.0006,
-      "epss_max": 0.00667,
-      "coverage": 0.9964,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.0006,
-          "max": 0.00667,
-          "coverage": 0.9964,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00092,
-          "max": 0.00716,
-          "coverage": 0.9964,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00088,
-          "max": 0.15793,
-          "coverage": 0.9964,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-40466",
-          "vendor": "Apache Software Foundation",
-          "product": "Apache ActiveMQ Broker",
-          "title": "Apache ActiveMQ Broker, Apache ActiveMQ All, Apache ActiveMQ: Possible bypass of CVE-2026-34197 via HTTP discovery second-stage URI",
-          "epss0": 0.0006,
-          "epss_peak": 0.15793,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-04-25",
       "epss_model_version": "v2025.03.14",
@@ -7254,7 +7133,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00377,
+          "max": 0.01053,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -9152,7 +9055,7 @@
       "total": 1006,
       "backfilled": 16,
       "net_total": 990,
-      "kev": 5,
+      "kev": 6,
       "kev_lag_median": 0,
       "epss_p90": 0.00796,
       "epss_max": 0.28315,
@@ -9233,6 +9136,15 @@
       },
       "named": [
         {
+          "id": "CVE-2026-50522",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.1972,
+          "epss_peak": 0.20346,
+          "kev": true
+        },
+        {
           "id": "CVE-2026-56164",
           "vendor": "Microsoft",
           "product": "Microsoft SharePoint Enterprise Server 2016",
@@ -9266,15 +9178,6 @@
           "title": "",
           "epss0": 0.01404,
           "epss_peak": 0.01404,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-56155",
-          "vendor": "Microsoft",
-          "product": "Windows 10 Version 1607",
-          "title": "Active Directory Federation Services Elevation of Privilege Vulnerability",
-          "epss0": 0.00379,
-          "epss_peak": 0.00379,
           "kev": true
         }
       ]
@@ -9336,7 +9239,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00429,
+          "max": 0.04572,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9532,6 +9459,69 @@
         "0": {
           "p90": 0.0043,
           "max": 0.00902,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-07-20",
+      "epss_model_version": "v2026.06.15",
+      "total": 269,
+      "backfilled": 6,
+      "net_total": 263,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00418,
+      "epss_max": 0.01919,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00418,
+          "max": 0.01919,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
