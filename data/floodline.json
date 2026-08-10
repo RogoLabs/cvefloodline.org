@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T12:23:50Z",
+  "generated": "2026-08-10T12:40:04Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -10,150 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-08-07",
-  "latest_epss_date": "2026-08-08",
+  "latest_epss_date": "2026-08-09",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 23404,
-    "backfilled": 1327,
-    "net_total": 22077,
-    "kev": 54,
+    "total": 23063,
+    "backfilled": 1305,
+    "net_total": 21758,
+    "kev": 53,
     "cross10_pit": 9,
     "mature_horizon": 30,
-    "cross10_matured": 34,
+    "cross10_matured": 33,
     "matured_eligible_days": 58,
-    "matured_eligible_total": 14396
+    "matured_eligible_total": 14188
   },
   "days": [
-    {
-      "date": "2026-05-12",
-      "epss_model_version": "v2025.03.14",
-      "total": 555,
-      "backfilled": 30,
-      "net_total": 525,
-      "kev": 1,
-      "kev_lag_median": 15,
-      "epss_p90": 0.00112,
-      "epss_max": 0.01503,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00112,
-          "max": 0.01503,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00183,
-          "max": 0.03743,
-          "coverage": 0.9964,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00193,
-          "max": 0.17051,
-          "coverage": 0.9964,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-45321",
-          "vendor": "@tanstack",
-          "product": "arktype-adapter",
-          "title": "Malware in 42 @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
-          "epss0": 0.00041,
-          "epss_peak": 0.17051,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-44262",
-          "vendor": "dedoc",
-          "product": "scramble",
-          "title": "Scramble: Remote code execution via evaluation of user-controlled input in validation rules",
-          "epss0": 0.00076,
-          "epss_peak": 0.08605,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-05-13",
       "epss_model_version": "v2025.03.14",
@@ -7206,7 +7076,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00432,
+          "max": 0.02803,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -9246,7 +9140,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00335,
+          "max": 0.04103,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9257,7 +9175,7 @@
           "product": "N-central",
           "title": "Incomplete patch leads to administrative account takeover",
           "epss0": 0.01477,
-          "epss_peak": 0.01477,
+          "epss_peak": 0.04103,
           "kev": true
         }
       ]
@@ -9486,6 +9404,69 @@
         "0": {
           "p90": 0.00464,
           "max": 0.02469,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-08-07",
+      "epss_model_version": "v2026.06.15",
+      "total": 214,
+      "backfilled": 8,
+      "net_total": 206,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00457,
+      "epss_max": 0.0161,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00457,
+          "max": 0.0161,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
