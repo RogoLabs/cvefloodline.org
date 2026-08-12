@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T12:37:13Z",
+  "generated": "2026-08-12T12:40:20Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -9,160 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-08-10",
-  "latest_epss_date": "2026-08-10",
+  "kev_snapshot_date": "2026-08-11",
+  "latest_epss_date": "2026-08-11",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 22777,
-    "backfilled": 1266,
-    "net_total": 21511,
-    "kev": 52,
+    "total": 22548,
+    "backfilled": 1240,
+    "net_total": 21308,
+    "kev": 50,
     "cross10_pit": 9,
     "mature_horizon": 30,
-    "cross10_matured": 31,
+    "cross10_matured": 30,
     "matured_eligible_days": 58,
-    "matured_eligible_total": 13918
+    "matured_eligible_total": 13676
   },
   "days": [
-    {
-      "date": "2026-05-14",
-      "epss_model_version": "v2025.03.14",
-      "total": 305,
-      "backfilled": 26,
-      "net_total": 279,
-      "kev": 2,
-      "kev_lag_median": 1,
-      "epss_p90": 0.00086,
-      "epss_max": 0.01561,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00086,
-          "max": 0.01561,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00116,
-          "max": 0.69191,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 2,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 1,
-            "60": 1,
-            "65": 1,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00114,
-          "max": 0.83838,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 1,
-            "60": 1,
-            "65": 1,
-            "70": 1,
-            "75": 1,
-            "80": 1,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-20182",
-          "vendor": "Cisco",
-          "product": "Cisco Catalyst SD-WAN Manager",
-          "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-          "epss0": 0.01561,
-          "epss_peak": 0.83838,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-42897",
-          "vendor": "Microsoft",
-          "product": "Microsoft Exchange Server 2016 Cumulative Update 23",
-          "title": "Microsoft Exchange Server Spoofing Vulnerability",
-          "epss0": 0.0022,
-          "epss_peak": 0.10026,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-42589",
-          "vendor": "gotenberg",
-          "product": "gotenberg",
-          "title": "Gotenberg: Unauthenticated RCE via ExifTool Metadata Key Injection",
-          "epss0": 0.00085,
-          "epss_peak": 0.08768,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-05-15",
       "epss_model_version": "v2025.03.14",
@@ -2896,7 +2757,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-25622",
+          "id": "CVE-2026-25620",
           "vendor": "",
           "product": "",
           "title": "",
@@ -2905,7 +2766,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-25620",
+          "id": "CVE-2026-25622",
           "vendor": "",
           "product": "",
           "title": "",
@@ -7159,7 +7020,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.01071,
+          "max": 0.02624,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -9209,7 +9094,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00538,
+          "max": 0.02705,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9439,6 +9348,69 @@
         "0": {
           "p90": 0.02086,
           "max": 0.0213,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-08-09",
+      "epss_model_version": "v2026.06.15",
+      "total": 76,
+      "backfilled": 0,
+      "net_total": 76,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00498,
+      "epss_max": 0.02465,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00498,
+          "max": 0.02465,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
