@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T12:41:04Z",
+  "generated": "2026-08-14T12:36:35Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -10,131 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-08-11",
-  "latest_epss_date": "2026-08-12",
+  "latest_epss_date": "2026-08-13",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 23012,
-    "backfilled": 1206,
-    "net_total": 21806,
-    "kev": 50,
+    "total": 23899,
+    "backfilled": 1181,
+    "net_total": 22718,
+    "kev": 52,
     "cross10_pit": 9,
     "mature_horizon": 30,
-    "cross10_matured": 30,
+    "cross10_matured": 41,
     "matured_eligible_days": 58,
-    "matured_eligible_total": 13800
+    "matured_eligible_total": 14758
   },
   "days": [
-    {
-      "date": "2026-05-16",
-      "epss_model_version": "v2025.03.14",
-      "total": 48,
-      "backfilled": 42,
-      "net_total": 6,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00095,
-      "epss_max": 0.00427,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00095,
-          "max": 0.00427,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00109,
-          "max": 0.00561,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00509,
-          "max": 0.00776,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": []
-    },
     {
       "date": "2026-05-17",
       "epss_model_version": "v2025.03.14",
@@ -1738,7 +1627,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-10060",
+          "id": "CVE-2026-10061",
           "vendor": "",
           "product": "",
           "title": "",
@@ -1747,7 +1636,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-10061",
+          "id": "CVE-2026-10060",
           "vendor": "",
           "product": "",
           "title": "",
@@ -2627,7 +2516,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-25622",
+          "id": "CVE-2026-25620",
           "vendor": "",
           "product": "",
           "title": "",
@@ -2636,7 +2525,7 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-25620",
+          "id": "CVE-2026-25622",
           "vendor": "",
           "product": "",
           "title": "",
@@ -7122,7 +7011,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00816,
+          "max": 0.76981,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 11,
+            "15": 9,
+            "20": 7,
+            "25": 5,
+            "30": 4,
+            "35": 3,
+            "40": 3,
+            "45": 3,
+            "50": 3,
+            "55": 3,
+            "60": 3,
+            "65": 3,
+            "70": 3,
+            "75": 2,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7132,16 +7045,7 @@
           "product": "",
           "title": "",
           "epss0": 0.1972,
-          "epss_peak": 0.20346,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-56164",
-          "vendor": "Microsoft",
-          "product": "Microsoft SharePoint Enterprise Server 2016",
-          "title": "Microsoft SharePoint Server Elevation of Privilege Vulnerability",
-          "epss0": 0.07047,
-          "epss_peak": 0.07047,
+          "epss_peak": 0.76981,
           "kev": true
         },
         {
@@ -7150,16 +7054,7 @@
           "product": "SMA1000",
           "title": "",
           "epss0": 0.01647,
-          "epss_peak": 0.01647,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-58644",
-          "vendor": "Microsoft",
-          "product": "Microsoft SharePoint Enterprise Server 2016",
-          "title": "Microsoft SharePoint Remote Code Execution Vulnerability",
-          "epss0": 0.01324,
-          "epss_peak": 0.01465,
+          "epss_peak": 0.76347,
           "kev": true
         },
         {
@@ -7168,7 +7063,25 @@
           "product": "SMA1000",
           "title": "",
           "epss0": 0.01404,
-          "epss_peak": 0.01404,
+          "epss_peak": 0.74218,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-56164",
+          "vendor": "Microsoft",
+          "product": "Microsoft SharePoint Enterprise Server 2016",
+          "title": "Microsoft SharePoint Server Elevation of Privilege Vulnerability",
+          "epss0": 0.07047,
+          "epss_peak": 0.22439,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-58644",
+          "vendor": "Microsoft",
+          "product": "Microsoft SharePoint Enterprise Server 2016",
+          "title": "Microsoft SharePoint Remote Code Execution Vulnerability",
+          "epss0": 0.01324,
+          "epss_peak": 0.06372,
           "kev": true
         }
       ]
@@ -9172,7 +9085,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00485,
+          "max": 0.03902,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9436,6 +9373,88 @@
           "title": "Metabase SQL injection via password reset endpoint",
           "epss0": 0.0069,
           "epss_peak": 0.0069,
+          "kev": true
+        }
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "epss_model_version": "v2026.06.15",
+      "total": 935,
+      "backfilled": 17,
+      "net_total": 918,
+      "kev": 2,
+      "kev_lag_median": 0,
+      "epss_p90": 0.00691,
+      "epss_max": 0.03307,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00691,
+          "max": 0.03307,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-20349",
+          "vendor": "Cisco",
+          "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
+          "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
+          "epss0": 0.00969,
+          "epss_peak": 0.00969,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-68820",
+          "vendor": "Microsoft",
+          "product": "Windows 10 Version 1607",
+          "title": "Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
+          "epss0": 0.00356,
+          "epss_peak": 0.00356,
           "kev": true
         }
       ]
