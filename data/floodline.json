@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T12:20:28Z",
+  "generated": "2026-08-19T12:20:32Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -9,151 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-08-17",
-  "latest_epss_date": "2026-08-17",
+  "kev_snapshot_date": "2026-08-18",
+  "latest_epss_date": "2026-08-18",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 25477,
-    "backfilled": 1164,
-    "net_total": 24313,
-    "kev": 49,
+    "total": 25398,
+    "backfilled": 1157,
+    "net_total": 24241,
+    "kev": 50,
     "cross10_pit": 8,
     "mature_horizon": 30,
     "cross10_matured": 44,
-    "matured_eligible_days": 58,
-    "matured_eligible_total": 15054
+    "matured_eligible_days": 57,
+    "matured_eligible_total": 14867
   },
   "days": [
-    {
-      "date": "2026-05-21",
-      "epss_model_version": "v2025.03.14",
-      "total": 187,
-      "backfilled": 10,
-      "net_total": 177,
-      "kev": 2,
-      "kev_lag_median": 5,
-      "epss_p90": 0.0011,
-      "epss_max": 0.01247,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.0011,
-          "max": 0.01247,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00136,
-          "max": 0.07956,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00417,
-          "max": 0.04019,
-          "coverage": 0.9893,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-48172",
-          "vendor": "LiteSpeed Technologies",
-          "product": "cPanel Plugin",
-          "title": "",
-          "epss0": 0.00041,
-          "epss_peak": 0.07956,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-34926",
-          "vendor": "Trend Micro, Inc.",
-          "product": "TrendAI Apex One",
-          "title": "",
-          "epss0": 0.00253,
-          "epss_peak": 0.01112,
-          "kev": true
-        }
-      ]
-    },
     {
       "date": "2026-05-22",
       "epss_model_version": "v2025.03.14",
@@ -6453,7 +6323,7 @@
       "total": 1006,
       "backfilled": 16,
       "net_total": 990,
-      "kev": 6,
+      "kev": 7,
       "kev_lag_median": 0,
       "epss_p90": 0.00796,
       "epss_max": 0.28315,
@@ -8038,8 +7908,8 @@
       "total": 669,
       "backfilled": 21,
       "net_total": 648,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 19,
       "epss_p90": 0.00354,
       "epss_max": 0.01701,
       "coverage": 1.0,
@@ -8117,7 +7987,17 @@
         "30": null,
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-59310",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.0114,
+          "epss_peak": 0.0114,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-07-31",
@@ -8667,8 +8547,8 @@
       "total": 465,
       "backfilled": 20,
       "net_total": 445,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 12,
       "epss_p90": 0.00464,
       "epss_max": 0.02469,
       "coverage": 1.0,
@@ -8746,7 +8626,17 @@
         "30": null,
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-65400",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00304,
+          "epss_peak": 0.00304,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-08-07",
@@ -9163,7 +9053,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00692,
+          "max": 0.0368,
+          "coverage": 0.9968,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9412,6 +9326,69 @@
         "0": {
           "p90": 0.0022,
           "max": 0.01206,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-08-16",
+      "epss_model_version": "v2026.06.15",
+      "total": 108,
+      "backfilled": 3,
+      "net_total": 105,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00528,
+      "epss_max": 0.01158,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00528,
+          "max": 0.01158,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
