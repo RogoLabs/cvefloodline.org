@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T12:24:49Z",
+  "generated": "2026-08-27T21:23:36Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -9,160 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-08-25",
-  "latest_epss_date": "2026-08-25",
+  "kev_snapshot_date": "2026-08-27",
+  "latest_epss_date": "2026-08-27",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 26842,
-    "backfilled": 1069,
-    "net_total": 25773,
-    "kev": 47,
+    "total": 26903,
+    "backfilled": 1034,
+    "net_total": 25869,
+    "kev": 50,
     "cross10_pit": 7,
     "mature_horizon": 30,
-    "cross10_matured": 44,
-    "matured_eligible_days": 57,
-    "matured_eligible_total": 15689
+    "cross10_matured": 46,
+    "matured_eligible_days": 58,
+    "matured_eligible_total": 16149
   },
   "days": [
-    {
-      "date": "2026-05-29",
-      "epss_model_version": "v2025.03.14",
-      "total": 248,
-      "backfilled": 44,
-      "net_total": 204,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00199,
-      "epss_max": 0.02589,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00199,
-          "max": 0.02589,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00234,
-          "max": 0.02887,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.0076,
-          "max": 0.09461,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-8732",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00074,
-          "epss_peak": 0.09461,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-10061",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00841,
-          "epss_peak": 0.0501,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-10060",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00841,
-          "epss_peak": 0.0501,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-05-30",
       "epss_model_version": "v2025.03.14",
@@ -3811,8 +3672,8 @@
       "total": 641,
       "backfilled": 25,
       "net_total": 616,
-      "kev": 1,
-      "kev_lag_median": 7,
+      "kev": 2,
+      "kev_lag_median": 57,
       "epss_p90": 0.00395,
       "epss_max": 0.03081,
       "coverage": 1.0,
@@ -3922,6 +3783,15 @@
           "title": "",
           "epss0": 0.01021,
           "epss_peak": 0.99197,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-8452",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00403,
+          "epss_peak": 0.00487,
           "kev": true
         },
         {
@@ -4312,8 +4182,8 @@
       "total": 71,
       "backfilled": 19,
       "net_total": 52,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 54,
       "epss_p90": 0.00445,
       "epss_max": 0.00656,
       "coverage": 1.0,
@@ -4415,7 +4285,17 @@
         },
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-53362",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00176,
+          "epss_peak": 0.00265,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-07-05",
@@ -7001,27 +6881,69 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00645,
+          "max": 0.84733,
+          "coverage": 0.98,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 2,
+            "35": 2,
+            "40": 2,
+            "45": 2,
+            "50": 2,
+            "55": 2,
+            "60": 2,
+            "65": 2,
+            "70": 2,
+            "75": 1,
+            "80": 1,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
-        {
-          "id": "CVE-2026-16812",
-          "vendor": "Arista Networks",
-          "product": "VeloCloud Orchestrator On-Prem",
-          "title": "VeloCloud Orchestrator OS Command Injection",
-          "epss0": 0.0098,
-          "epss_peak": 0.0098,
-          "kev": true
-        },
         {
           "id": "CVE-2026-63077",
           "vendor": "",
           "product": "",
           "title": "",
           "epss0": 0.00649,
-          "epss_peak": 0.00649,
+          "epss_peak": 0.84733,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-16812",
+          "vendor": "Arista Networks",
+          "product": "VeloCloud Orchestrator On-Prem",
+          "title": "VeloCloud Orchestrator OS Command Injection",
+          "epss0": 0.0098,
+          "epss_peak": 0.01568,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-61511",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.01274,
+          "epss_peak": 0.70766,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-48030",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.01545,
+          "epss_peak": 0.05849,
+          "kev": false
         }
       ]
     },
@@ -7107,7 +7029,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00454,
+          "max": 0.01367,
+          "coverage": 0.9382,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -8415,8 +8361,8 @@
       "total": 416,
       "backfilled": 19,
       "net_total": 397,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 15,
       "epss_p90": 0.00461,
       "epss_max": 0.02609,
       "coverage": 1.0,
@@ -8494,7 +8440,17 @@
         "30": null,
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-66384",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00264,
+          "epss_peak": 0.00264,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-08-13",
@@ -9104,7 +9060,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00517,
+          "max": 0.03372,
+          "coverage": 0.9985,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9115,7 +9095,7 @@
           "product": "TrueConf Server",
           "title": "",
           "epss0": 0.0034,
-          "epss_peak": 0.0034,
+          "epss_peak": 0.01827,
           "kev": true
         },
         {
@@ -9124,7 +9104,7 @@
           "product": "TrueConf Server",
           "title": "",
           "epss0": 0.00284,
-          "epss_peak": 0.00284,
+          "epss_peak": 0.01554,
           "kev": true
         }
       ]
@@ -9186,7 +9166,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00533,
+          "max": 0.05035,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9363,6 +9367,69 @@
         "0": {
           "p90": 0.00492,
           "max": 0.02747,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-08-24",
+      "epss_model_version": "v2026.06.15",
+      "total": 309,
+      "backfilled": 9,
+      "net_total": 300,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00999,
+      "epss_max": 0.03248,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00999,
+          "max": 0.03248,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
