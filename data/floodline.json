@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T15:28:47Z",
+  "generated": "2026-09-03T15:22:42Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -9,178 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-09-01",
-  "latest_epss_date": "2026-09-02",
+  "kev_snapshot_date": "2026-09-02",
+  "latest_epss_date": "2026-09-03",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 27645,
-    "backfilled": 917,
-    "net_total": 26728,
-    "kev": 48,
+    "total": 27833,
+    "backfilled": 913,
+    "net_total": 26920,
+    "kev": 50,
     "cross10_pit": 8,
     "mature_horizon": 30,
-    "cross10_matured": 45,
+    "cross10_matured": 42,
     "matured_eligible_days": 58,
-    "matured_eligible_total": 16299
+    "matured_eligible_total": 16400
   },
   "days": [
-    {
-      "date": "2026-06-05",
-      "epss_model_version": "v2025.03.14",
-      "total": 169,
-      "backfilled": 8,
-      "net_total": 161,
-      "kev": 2,
-      "kev_lag_median": 11,
-      "epss_p90": 0.00227,
-      "epss_max": 0.00894,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00227,
-          "max": 0.00894,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00254,
-          "max": 0.2722,
-          "coverage": 0.9941,
-          "thresholds": {
-            "10": 2,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00727,
-          "max": 0.80425,
-          "coverage": 0.9941,
-          "thresholds": {
-            "10": 3,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 1,
-            "60": 1,
-            "65": 1,
-            "70": 1,
-            "75": 1,
-            "80": 1,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-48907",
-          "vendor": "joomlacontenteditor.net",
-          "product": "Joomla Content Editor (JCE) extension for Joomla",
-          "title": "Joomla Extension - joomlacontenteditor.net - Remote Code Execution in JCE extension for Joomla < 2.9.99.5",
-          "epss0": 0.00111,
-          "epss_peak": 0.80425,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-7473",
-          "vendor": "Arista Networks",
-          "product": "EOS",
-          "title": "Arista EOS Unexpected Tunnel Protocol Decapsulation and Forwarding Bypass",
-          "epss0": 0.00029,
-          "epss_peak": 0.2722,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-9290",
-          "vendor": "wpusermanager",
-          "product": "WP User Manager \u2013 User Profile Builder & Membership",
-          "title": "WP User Manager <= 2.9.17 - Unauthenticated Path Traversal to Local File Inclusion via 'tab' Query Parameter",
-          "epss0": 0.00447,
-          "epss_peak": 0.11746,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-25620",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00222,
-          "epss_peak": 0.10245,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-25622",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00222,
-          "epss_peak": 0.10245,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-06-06",
       "epss_model_version": "v2025.03.14",
@@ -2477,8 +2320,8 @@
       "total": 354,
       "backfilled": 21,
       "net_total": 333,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 68,
       "epss_p90": 0.00412,
       "epss_max": 0.01369,
       "coverage": 1.0,
@@ -2580,7 +2423,17 @@
         },
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-49869",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00691,
+          "epss_peak": 0.00892,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-06-27",
@@ -3914,8 +3767,8 @@
       "total": 364,
       "backfilled": 3,
       "net_total": 361,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 56,
       "epss_p90": 0.00436,
       "epss_max": 0.01803,
       "coverage": 1.0,
@@ -4017,7 +3870,17 @@
         },
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-59822",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00286,
+          "epss_peak": 0.00286,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-07-09",
@@ -4999,8 +4862,8 @@
       "total": 276,
       "backfilled": 20,
       "net_total": 256,
-      "kev": 3,
-      "kev_lag_median": 4,
+      "kev": 4,
+      "kev_lag_median": 18,
       "epss_p90": 0.00502,
       "epss_max": 0.08946,
       "coverage": 1.0,
@@ -5128,6 +4991,15 @@
           "title": "",
           "epss0": 0.00352,
           "epss_peak": 0.17352,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-9586",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00411,
+          "epss_peak": 0.00411,
           "kev": true
         },
         {
@@ -7141,7 +7013,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00553,
+          "max": 0.02705,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -9234,7 +9130,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00478,
+          "max": 0.04075,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9246,7 +9166,7 @@
       "total": 496,
       "backfilled": 3,
       "net_total": 493,
-      "kev": 2,
+      "kev": 3,
       "kev_lag_median": 3,
       "epss_p90": 0.00428,
       "epss_max": 0.02417,
@@ -9318,6 +9238,15 @@
           "title": "PaperCut MF/NG: Authentication Bypass",
           "epss0": 0.00393,
           "epss_peak": 0.00393,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-82329",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00377,
+          "epss_peak": 0.00377,
           "kev": true
         }
       ]
@@ -9420,6 +9349,69 @@
         "0": {
           "p90": 0.00435,
           "max": 0.01294,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-08-31",
+      "epss_model_version": "v2026.06.15",
+      "total": 357,
+      "backfilled": 4,
+      "net_total": 353,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00432,
+      "epss_max": 0.02787,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00432,
+          "max": 0.02787,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
