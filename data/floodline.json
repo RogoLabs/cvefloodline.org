@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T15:31:29Z",
+  "generated": "2026-09-09T15:27:07Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -9,151 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-09-04",
-  "latest_epss_date": "2026-09-08",
+  "kev_snapshot_date": "2026-09-09",
+  "latest_epss_date": "2026-09-09",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 28352,
-    "backfilled": 897,
-    "net_total": 27455,
+    "total": 28247,
+    "backfilled": 879,
+    "net_total": 27368,
     "kev": 48,
     "cross10_pit": 8,
     "mature_horizon": 30,
     "cross10_matured": 34,
     "matured_eligible_days": 58,
-    "matured_eligible_total": 16328
+    "matured_eligible_total": 16807
   },
   "days": [
-    {
-      "date": "2026-06-11",
-      "epss_model_version": "v2025.03.14",
-      "total": 196,
-      "backfilled": 23,
-      "net_total": 173,
-      "kev": 1,
-      "kev_lag_median": 1,
-      "epss_p90": 0.00068,
-      "epss_max": 0.0518,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00068,
-          "max": 0.0518,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00487,
-          "max": 0.01304,
-          "coverage": 0.9949,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.0051,
-          "max": 0.9233,
-          "coverage": 0.9949,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 1,
-            "60": 1,
-            "65": 1,
-            "70": 1,
-            "75": 1,
-            "80": 1,
-            "85": 1,
-            "90": 1,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-35273",
-          "vendor": "Oracle Corporation",
-          "product": "PeopleSoft Enterprise PeopleTools",
-          "title": "",
-          "epss0": 0.00025,
-          "epss_peak": 0.9233,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-42647",
-          "vendor": "Beardev",
-          "product": "JoomSport",
-          "title": "WordPress JoomSport plugin <= 5.7.7 - SQL Injection vulnerability",
-          "epss0": 0.0518,
-          "epss_peak": 0.0518,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-06-12",
       "epss_model_version": "v2025.03.14",
@@ -7051,7 +6921,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00511,
+          "max": 0.94217,
+          "coverage": 0.9926,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 1,
+            "30": 1,
+            "35": 1,
+            "40": 1,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 1,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "80": 1,
+            "85": 1,
+            "90": 1,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7061,7 +6955,7 @@
           "product": "Metabase",
           "title": "Metabase SQL injection via password reset endpoint",
           "epss0": 0.0069,
-          "epss_peak": 0.104,
+          "epss_peak": 0.94217,
           "kev": true
         }
       ]
@@ -9181,7 +9075,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00405,
+          "max": 0.05148,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9395,6 +9313,79 @@
         "90": null
       },
       "named": []
+    },
+    {
+      "date": "2026-09-06",
+      "epss_model_version": "v2026.06.15",
+      "total": 91,
+      "backfilled": 5,
+      "net_total": 86,
+      "kev": 1,
+      "kev_lag_median": 2,
+      "epss_p90": 0.00391,
+      "epss_max": 0.0163,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00391,
+          "max": 0.0163,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-86218",
+          "vendor": "N-able",
+          "product": "N-central",
+          "title": "pre-authentication remote code execution",
+          "epss0": 0.00411,
+          "epss_peak": 0.00411,
+          "kev": true
+        }
+      ]
     }
   ]
 }
