@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T15:27:07Z",
+  "generated": "2026-09-10T15:22:13Z",
   "window_days": 90,
   "days_present": 85,
   "horizons": [
@@ -10,141 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-09-09",
-  "latest_epss_date": "2026-09-09",
+  "latest_epss_date": "2026-09-10",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 28247,
-    "backfilled": 879,
-    "net_total": 27368,
-    "kev": 48,
+    "total": 28216,
+    "backfilled": 875,
+    "net_total": 27341,
+    "kev": 49,
     "cross10_pit": 8,
     "mature_horizon": 30,
-    "cross10_matured": 34,
+    "cross10_matured": 36,
     "matured_eligible_days": 58,
-    "matured_eligible_total": 16807
+    "matured_eligible_total": 17462
   },
   "days": [
-    {
-      "date": "2026-06-12",
-      "epss_model_version": "v2025.03.14",
-      "total": 280,
-      "backfilled": 16,
-      "net_total": 264,
-      "kev": 1,
-      "kev_lag_median": 17,
-      "epss_p90": 0.00071,
-      "epss_max": 0.01487,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00071,
-          "max": 0.01487,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00555,
-          "max": 0.01395,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00451,
-          "max": 0.04591,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-48558",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00201,
-          "epss_peak": 0.0116,
-          "kev": true
-        }
-      ]
-    },
     {
       "date": "2026-06-13",
       "epss_model_version": "v2025.03.14",
@@ -7042,27 +6921,78 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00771,
+          "max": 0.25136,
+          "coverage": 0.9968,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 1,
+            "25": 1,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
-        {
-          "id": "CVE-2026-20349",
-          "vendor": "Cisco",
-          "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
-          "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
-          "epss0": 0.00969,
-          "epss_peak": 0.00969,
-          "kev": true
-        },
         {
           "id": "CVE-2026-68820",
           "vendor": "Microsoft",
           "product": "Windows 10 Version 1607",
           "title": "Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
           "epss0": 0.00356,
-          "epss_peak": 0.00356,
+          "epss_peak": 0.06184,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-20349",
+          "vendor": "Cisco",
+          "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
+          "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
+          "epss0": 0.00969,
+          "epss_peak": 0.02213,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-71362",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00478,
+          "epss_peak": 0.25136,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-48376",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00528,
+          "epss_peak": 0.15479,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-71386",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00295,
+          "epss_peak": 0.06945,
+          "kev": false
         }
       ]
     },
@@ -7720,7 +7650,7 @@
       "total": 673,
       "backfilled": 10,
       "net_total": 663,
-      "kev": 2,
+      "kev": 3,
       "kev_lag_median": 1,
       "epss_p90": 0.00549,
       "epss_max": 0.03336,
@@ -7800,6 +7730,15 @@
         "90": null
       },
       "named": [
+        {
+          "id": "CVE-2026-19490",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00345,
+          "epss_peak": 0.03372,
+          "kev": true
+        },
         {
           "id": "CVE-2026-72530",
           "vendor": "TrueConf",
@@ -9172,7 +9111,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00479,
+          "max": 0.02152,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9183,7 +9146,7 @@
           "product": "Chrome",
           "title": "",
           "epss0": 0.00462,
-          "epss_peak": 0.00462,
+          "epss_peak": 0.0126,
           "kev": true
         }
       ]
@@ -9383,6 +9346,79 @@
           "title": "pre-authentication remote code execution",
           "epss0": 0.00411,
           "epss_peak": 0.00411,
+          "kev": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "epss_model_version": "v2026.06.15",
+      "total": 249,
+      "backfilled": 12,
+      "net_total": 237,
+      "kev": 1,
+      "kev_lag_median": 1,
+      "epss_p90": 0.00512,
+      "epss_max": 0.03353,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00512,
+          "max": 0.03353,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-75650",
+          "vendor": "Adobe",
+          "product": "Adobe Commerce",
+          "title": "Adobe Commerce | Improper Neutralization of Special Elements Used in a Template Engine (CWE-1336)",
+          "epss0": 0.00676,
+          "epss_peak": 0.00676,
           "kev": true
         }
       ]
