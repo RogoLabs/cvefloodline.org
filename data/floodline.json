@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T16:01:41Z",
+  "generated": "2026-09-25T16:02:33Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -9,132 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-09-23",
-  "latest_epss_date": "2026-09-24",
+  "kev_snapshot_date": "2026-09-25",
+  "latest_epss_date": "2026-09-25",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 33200,
-    "backfilled": 649,
-    "net_total": 32551,
-    "kev": 58,
+    "total": 33628,
+    "backfilled": 657,
+    "net_total": 32971,
+    "kev": 65,
     "cross10_pit": 8,
     "mature_horizon": 30,
-    "cross10_matured": 38,
+    "cross10_matured": 39,
     "matured_eligible_days": 59,
-    "matured_eligible_total": 20647
+    "matured_eligible_total": 21000
   },
   "days": [
-    {
-      "date": "2026-06-27",
-      "epss_model_version": "v2026.06.15",
-      "total": 27,
-      "backfilled": 0,
-      "net_total": 27,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00298,
-      "epss_max": 0.00662,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00298,
-          "max": 0.00662,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00298,
-          "max": 0.00662,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00367,
-          "max": 0.00662,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": []
-    },
     {
       "date": "2026-06-28",
       "epss_model_version": "v2026.06.15",
@@ -4767,8 +4656,8 @@
       "total": 465,
       "backfilled": 20,
       "net_total": 445,
-      "kev": 1,
-      "kev_lag_median": 12,
+      "kev": 2,
+      "kev_lag_median": 49,
       "epss_p90": 0.00464,
       "epss_max": 0.02469,
       "coverage": 1.0,
@@ -4878,6 +4767,15 @@
           "title": "",
           "epss0": 0.00304,
           "epss_peak": 0.09905,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-5430",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00223,
+          "epss_peak": 0.00223,
           "kev": true
         },
         {
@@ -5361,8 +5259,8 @@
       "total": 935,
       "backfilled": 17,
       "net_total": 918,
-      "kev": 2,
-      "kev_lag_median": 0,
+      "kev": 4,
+      "kev_lag_median": 44,
       "epss_p90": 0.00691,
       "epss_max": 0.03307,
       "coverage": 1.0,
@@ -5466,6 +5364,15 @@
       },
       "named": [
         {
+          "id": "CVE-2026-71362",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00478,
+          "epss_peak": 0.25136,
+          "kev": true
+        },
+        {
           "id": "CVE-2026-68820",
           "vendor": "Microsoft",
           "product": "Windows 10 Version 1607",
@@ -5484,13 +5391,13 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-71362",
+          "id": "CVE-2026-65660",
           "vendor": "",
           "product": "",
           "title": "",
-          "epss0": 0.00478,
-          "epss_peak": 0.25136,
-          "kev": false
+          "epss0": 0.00683,
+          "epss_peak": 0.00807,
+          "kev": true
         },
         {
           "id": "CVE-2026-48376",
@@ -5499,15 +5406,6 @@
           "title": "",
           "epss0": 0.00528,
           "epss_peak": 0.15479,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-71386",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00295,
-          "epss_peak": 0.06945,
           "kev": false
         }
       ]
@@ -7244,7 +7142,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00755,
+          "max": 0.23988,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7256,6 +7178,15 @@
           "epss0": 0.824,
           "epss_peak": 0.86777,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-19632",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00787,
+          "epss_peak": 0.08964,
+          "kev": false
         }
       ]
     },
@@ -8115,7 +8046,7 @@
       "total": 131,
       "backfilled": 7,
       "net_total": 124,
-      "kev": 2,
+      "kev": 3,
       "kev_lag_median": 5,
       "epss_p90": 0.00441,
       "epss_max": 0.02465,
@@ -8211,6 +8142,15 @@
           "title": "",
           "epss0": 0.00435,
           "epss_peak": 0.00856,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-67279",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00446,
+          "epss_peak": 0.00446,
           "kev": true
         }
       ]
@@ -9433,7 +9373,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00711,
+          "max": 0.01896,
+          "coverage": 0.9961,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9627,6 +9591,97 @@
         "90": null
       },
       "named": []
+    },
+    {
+      "date": "2026-09-22",
+      "epss_model_version": "v2026.06.15",
+      "total": 455,
+      "backfilled": 8,
+      "net_total": 447,
+      "kev": 3,
+      "kev_lag_median": 0,
+      "epss_p90": 0.0097,
+      "epss_max": 0.04459,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.0097,
+          "max": 0.04459,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-93616",
+          "vendor": "checkpoint",
+          "product": "Quantum Security Management",
+          "title": "Directory Traversal and File upload allows execution of arbitrary script on the Management Server",
+          "epss0": 0.02422,
+          "epss_peak": 0.02422,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-94127",
+          "vendor": "F5",
+          "product": "BIG-IP",
+          "title": "BIG-IP APM OAuth vulnerability",
+          "epss0": 0.01391,
+          "epss_peak": 0.01391,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-93952",
+          "vendor": "Arista Networks",
+          "product": "VeloCloud Orchestrator (VCO) On-Prem",
+          "title": "Security Advisory 0183",
+          "epss0": 0.00424,
+          "epss_peak": 0.00424,
+          "kev": true
+        }
+      ]
     }
   ]
 }
