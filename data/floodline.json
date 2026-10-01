@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T17:07:56Z",
+  "generated": "2026-10-01T17:37:36Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -9,151 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-09-29",
-  "latest_epss_date": "2026-09-30",
+  "kev_snapshot_date": "2026-09-30",
+  "latest_epss_date": "2026-10-01",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 34191,
+    "total": 34324,
     "backfilled": 623,
-    "net_total": 33568,
-    "kev": 65,
-    "cross10_pit": 8,
+    "net_total": 33701,
+    "kev": 66,
+    "cross10_pit": 7,
     "mature_horizon": 30,
-    "cross10_matured": 36,
+    "cross10_matured": 35,
     "matured_eligible_days": 59,
-    "matured_eligible_total": 20876
+    "matured_eligible_total": 21173
   },
   "days": [
-    {
-      "date": "2026-07-03",
-      "epss_model_version": "v2026.06.15",
-      "total": 180,
-      "backfilled": 2,
-      "net_total": 178,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.0053,
-      "epss_max": 0.40738,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 1,
-        "15": 1,
-        "20": 1,
-        "25": 1,
-        "30": 1,
-        "35": 1,
-        "40": 1,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.0053,
-          "max": 0.40738,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00649,
-          "max": 0.40738,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00584,
-          "max": 0.43068,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 2,
-            "15": 2,
-            "20": 2,
-            "25": 2,
-            "30": 2,
-            "35": 1,
-            "40": 1,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-27771",
-          "vendor": "Gitea",
-          "product": "Gitea Open Source Git Server",
-          "title": "Gitea Composer package source links use insufficient permission checks",
-          "epss0": 0.40738,
-          "epss_peak": 0.43068,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-20896",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00783,
-          "epss_peak": 0.31809,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-07-04",
       "epss_model_version": "v2026.06.15",
@@ -7262,7 +7132,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00693,
+          "max": 0.1076,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7272,7 +7166,7 @@
           "product": "SMA1000",
           "title": "",
           "epss0": 0.00917,
-          "epss_peak": 0.01625,
+          "epss_peak": 0.1076,
           "kev": true
         },
         {
@@ -7281,7 +7175,7 @@
           "product": "SMA1000",
           "title": "",
           "epss0": 0.00266,
-          "epss_peak": 0.0071,
+          "epss_peak": 0.08757,
           "kev": true
         }
       ]
@@ -9459,7 +9353,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00383,
+          "max": 0.02868,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9670,6 +9588,88 @@
           "epss0": 0.01026,
           "epss_peak": 0.01026,
           "kev": true
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "epss_model_version": "v2026.06.15",
+      "total": 313,
+      "backfilled": 2,
+      "net_total": 311,
+      "kev": 1,
+      "kev_lag_median": 1,
+      "epss_p90": 0.0076,
+      "epss_max": 0.06991,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.0076,
+          "max": 0.06991,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-86950",
+          "vendor": "Apple",
+          "product": "iOS and iPadOS",
+          "title": "",
+          "epss0": 0.00812,
+          "epss_peak": 0.00812,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-12269",
+          "vendor": "Zohocorp",
+          "product": "DDI Central",
+          "title": "Authenticated File Write to RCE via keepalived in DDI Central",
+          "epss0": 0.06991,
+          "epss_peak": 0.06991,
+          "kev": false
         }
       ]
     }
