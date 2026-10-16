@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T15:52:54Z",
+  "generated": "2026-10-16T15:41:35Z",
   "window_days": 90,
   "days_present": 86,
   "horizons": [
@@ -9,132 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-10-14",
-  "latest_epss_date": "2026-10-15",
+  "kev_snapshot_date": "2026-10-15",
+  "latest_epss_date": "2026-10-16",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 36651,
-    "backfilled": 593,
-    "net_total": 36058,
-    "kev": 58,
-    "cross10_pit": 1,
+    "total": 38857,
+    "backfilled": 581,
+    "net_total": 38276,
+    "kev": 61,
+    "cross10_pit": 2,
     "mature_horizon": 30,
-    "cross10_matured": 22,
+    "cross10_matured": 23,
     "matured_eligible_days": 59,
-    "matured_eligible_total": 24773
+    "matured_eligible_total": 25563
   },
   "days": [
-    {
-      "date": "2026-07-18",
-      "epss_model_version": "v2026.06.15",
-      "total": 81,
-      "backfilled": 24,
-      "net_total": 57,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.0043,
-      "epss_max": 0.00902,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.0043,
-          "max": 0.00902,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.0043,
-          "max": 0.00874,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.0043,
-          "max": 0.00874,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": []
-    },
     {
       "date": "2026-07-20",
       "epss_model_version": "v2026.06.15",
@@ -7254,7 +7143,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00712,
+          "max": 0.14026,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7264,8 +7177,17 @@
           "product": "Cisco Identity Services Engine Software",
           "title": "Cisco Identity Services Engine Authentication Bypass Vulnerability",
           "epss0": 0.00915,
-          "epss_peak": 0.00915,
+          "epss_peak": 0.14026,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-77692",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.0048,
+          "epss_peak": 0.06558,
+          "kev": false
         }
       ]
     },
@@ -8992,8 +8914,8 @@
       "total": 411,
       "backfilled": 3,
       "net_total": 408,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 10,
       "epss_p90": 0.00372,
       "epss_max": 0.01096,
       "coverage": 1.0,
@@ -9071,7 +8993,17 @@
         "30": null,
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-21589",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00738,
+          "epss_peak": 0.02777,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-10-06",
@@ -9391,7 +9323,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00412,
+          "max": 0.01548,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9585,6 +9541,88 @@
         "90": null
       },
       "named": []
+    },
+    {
+      "date": "2026-10-13",
+      "epss_model_version": "v2026.06.15",
+      "total": 2287,
+      "backfilled": 12,
+      "net_total": 2275,
+      "kev": 2,
+      "kev_lag_median": 0,
+      "epss_p90": 0.00831,
+      "epss_max": 0.25982,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 1,
+        "15": 1,
+        "20": 1,
+        "25": 1,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00831,
+          "max": 0.25982,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 1,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-104935",
+          "vendor": "Ivanti",
+          "product": "Connect Secure",
+          "title": "",
+          "epss0": 0.25982,
+          "epss_peak": 0.25982,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-96951",
+          "vendor": "Microsoft",
+          "product": "Outlook.com",
+          "title": "Windows Shell Security Feature Bypass Vulnerability",
+          "epss0": 0.01506,
+          "epss_peak": 0.01506,
+          "kev": true
+        }
+      ]
     }
   ]
 }
