@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-16T15:41:35Z",
+  "generated": "2026-10-17T14:32:57Z",
   "window_days": 90,
-  "days_present": 86,
+  "days_present": 87,
   "horizons": [
     0,
     7,
@@ -9,19 +9,19 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-10-15",
-  "latest_epss_date": "2026-10-16",
+  "kev_snapshot_date": "2026-10-16",
+  "latest_epss_date": "2026-10-17",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 38857,
-    "backfilled": 581,
-    "net_total": 38276,
-    "kev": 61,
-    "cross10_pit": 2,
+    "total": 39681,
+    "backfilled": 589,
+    "net_total": 39092,
+    "kev": 63,
+    "cross10_pit": 3,
     "mature_horizon": 30,
     "cross10_matured": 23,
-    "matured_eligible_days": 59,
-    "matured_eligible_total": 25563
+    "matured_eligible_days": 60,
+    "matured_eligible_total": 26598
   },
   "days": [
     {
@@ -7273,7 +7273,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00609,
+          "max": 0.02883,
+          "coverage": 0.9981,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -9410,7 +9434,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00387,
+          "max": 0.01782,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9621,6 +9669,97 @@
           "epss0": 0.01506,
           "epss_peak": 0.01506,
           "kev": true
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "epss_model_version": "v2026.06.15",
+      "total": 824,
+      "backfilled": 8,
+      "net_total": 816,
+      "kev": 2,
+      "kev_lag_median": 0,
+      "epss_p90": 0.00606,
+      "epss_max": 0.28308,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 1,
+        "15": 1,
+        "20": 1,
+        "25": 1,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00606,
+          "max": 0.28308,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 1,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-76519",
+          "vendor": "Cisco",
+          "product": "Cisco Secure Email",
+          "title": "Cisco Secure Email Gateway Arbitrary File Write Vulnerability",
+          "epss0": 0.01743,
+          "epss_peak": 0.01743,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-0322",
+          "vendor": "Palo Alto Networks",
+          "product": "Cloud NGFW",
+          "title": "PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface",
+          "epss0": 0.01076,
+          "epss_peak": 0.01076,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-59774",
+          "vendor": "Gitea",
+          "product": "Gitea",
+          "title": "Gitea Org-mode file disclosure and code execution",
+          "epss0": 0.28308,
+          "epss_peak": 0.28308,
+          "kev": false
         }
       ]
     }
