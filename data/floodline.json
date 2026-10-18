@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T14:32:57Z",
+  "generated": "2026-10-18T15:00:09Z",
   "window_days": 90,
   "days_present": 87,
   "horizons": [
@@ -10,131 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-10-16",
-  "latest_epss_date": "2026-10-17",
+  "latest_epss_date": "2026-10-18",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 39681,
-    "backfilled": 589,
-    "net_total": 39092,
-    "kev": 63,
+    "total": 39970,
+    "backfilled": 594,
+    "net_total": 39376,
+    "kev": 64,
     "cross10_pit": 3,
     "mature_horizon": 30,
     "cross10_matured": 23,
     "matured_eligible_days": 60,
-    "matured_eligible_total": 26598
+    "matured_eligible_total": 26843
   },
   "days": [
-    {
-      "date": "2026-07-20",
-      "epss_model_version": "v2026.06.15",
-      "total": 269,
-      "backfilled": 6,
-      "net_total": 263,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00418,
-      "epss_max": 0.01919,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00418,
-          "max": 0.01919,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00419,
-          "max": 0.01919,
-          "coverage": 0.9851,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00425,
-          "max": 0.01919,
-          "coverage": 0.9851,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": []
-    },
     {
       "date": "2026-07-21",
       "epss_model_version": "v2026.06.15",
@@ -7394,7 +7283,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00719,
+          "max": 0.02559,
+          "coverage": 0.9961,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -9521,7 +9434,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00356,
+          "max": 0.02451,
+          "coverage": 0.9957,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9759,6 +9696,115 @@
           "title": "Gitea Org-mode file disclosure and code execution",
           "epss0": 0.28308,
           "epss_peak": 0.28308,
+          "kev": false
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "epss_model_version": "v2026.06.15",
+      "total": 558,
+      "backfilled": 11,
+      "net_total": 547,
+      "kev": 1,
+      "kev_lag_median": 1,
+      "epss_p90": 0.00514,
+      "epss_max": 0.08634,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00514,
+          "max": 0.08634,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-102764",
+          "vendor": "BeyondTrust",
+          "product": "Remote Support",
+          "title": "Improper Origin Validation in Internal Messaging Components of BeyondTrust Remote Support",
+          "epss0": 0.00601,
+          "epss_peak": 0.00601,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-111214",
+          "vendor": "Netgate",
+          "product": "pfSense CE",
+          "title": "Netgate pfSense CE 2.7.0 through 2.9.0 OS Command Injection via interfaces_qinq_edit.php",
+          "epss0": 0.08634,
+          "epss_peak": 0.08634,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-111218",
+          "vendor": "Netgate",
+          "product": "pfSense CE",
+          "title": "Netgate pfSense CE 2.7.0 through 2.9.0 OS Command Injection via Traffic Shaper Limiters",
+          "epss0": 0.08445,
+          "epss_peak": 0.08445,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-111215",
+          "vendor": "Netgate",
+          "product": "pfSense CE",
+          "title": "Netgate pfSense CE through 2.9.0 OS Command Injection via Wireless Parent Interface",
+          "epss0": 0.07054,
+          "epss_peak": 0.07054,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-111217",
+          "vendor": "Netgate",
+          "product": "pfSense CE",
+          "title": "Netgate pfSense CE through 2.9.0 OS Command Injection via CARP VHID",
+          "epss0": 0.07054,
+          "epss_peak": 0.07054,
           "kev": false
         }
       ]
