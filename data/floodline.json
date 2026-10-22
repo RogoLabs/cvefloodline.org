@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T16:13:17Z",
+  "generated": "2026-10-22T16:11:31Z",
   "window_days": 90,
   "days_present": 87,
   "horizons": [
@@ -10,131 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-10-21",
-  "latest_epss_date": "2026-10-21",
+  "latest_epss_date": "2026-10-22",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 39033,
-    "backfilled": 579,
-    "net_total": 38454,
+    "total": 39281,
+    "backfilled": 593,
+    "net_total": 38688,
     "kev": 69,
     "cross10_pit": 3,
     "mature_horizon": 30,
-    "cross10_matured": 21,
+    "cross10_matured": 23,
     "matured_eligible_days": 60,
-    "matured_eligible_total": 25290
+    "matured_eligible_total": 25553
   },
   "days": [
-    {
-      "date": "2026-07-24",
-      "epss_model_version": "v2026.06.15",
-      "total": 192,
-      "backfilled": 2,
-      "net_total": 190,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00423,
-      "epss_max": 0.02406,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00423,
-          "max": 0.02406,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.0051,
-          "max": 0.02406,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00519,
-          "max": 0.02406,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": []
-    },
     {
       "date": "2026-07-25",
       "epss_model_version": "v2026.06.15",
@@ -7356,26 +7245,50 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00763,
+          "max": 0.75872,
+          "coverage": 0.9956,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 2,
+            "35": 2,
+            "40": 1,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 1,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
-        {
-          "id": "CVE-2026-87902",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.0042,
-          "epss_peak": 0.19756,
-          "kev": true
-        },
         {
           "id": "CVE-2026-93616",
           "vendor": "checkpoint",
           "product": "Quantum Security Management",
           "title": "Directory Traversal and File upload allows execution of arbitrary script on the Management Server",
           "epss0": 0.02422,
-          "epss_peak": 0.19654,
+          "epss_peak": 0.75872,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-87902",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.0042,
+          "epss_peak": 0.39979,
           "kev": true
         },
         {
@@ -9576,7 +9489,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00515,
+          "max": 0.10005,
+          "coverage": 0.991,
+          "thresholds": {
+            "10": 1,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9587,7 +9524,7 @@
           "product": "Remote Support",
           "title": "Improper Origin Validation in Internal Messaging Components of BeyondTrust Remote Support",
           "epss0": 0.00601,
-          "epss_peak": 0.00601,
+          "epss_peak": 0.0118,
           "kev": true
         },
         {
@@ -9596,7 +9533,7 @@
           "product": "",
           "title": "",
           "epss0": 0.00135,
-          "epss_peak": 0.00135,
+          "epss_peak": 0.00238,
           "kev": true
         },
         {
@@ -9605,7 +9542,7 @@
           "product": "pfSense CE",
           "title": "Netgate pfSense CE 2.7.0 through 2.9.0 OS Command Injection via interfaces_qinq_edit.php",
           "epss0": 0.08634,
-          "epss_peak": 0.08634,
+          "epss_peak": 0.10005,
           "kev": false
         },
         {
@@ -9618,10 +9555,10 @@
           "kev": false
         },
         {
-          "id": "CVE-2026-111215",
-          "vendor": "Netgate",
-          "product": "pfSense CE",
-          "title": "Netgate pfSense CE through 2.9.0 OS Command Injection via Wireless Parent Interface",
+          "id": "CVE-2026-111217",
+          "vendor": "",
+          "product": "",
+          "title": "",
           "epss0": 0.07054,
           "epss_peak": 0.07054,
           "kev": false
@@ -9789,6 +9726,69 @@
         "0": {
           "p90": 0.0022,
           "max": 0.0067,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-10-19",
+      "epss_model_version": "v2026.06.15",
+      "total": 440,
+      "backfilled": 16,
+      "net_total": 424,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00456,
+      "epss_max": 0.03441,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00456,
+          "max": 0.03441,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
