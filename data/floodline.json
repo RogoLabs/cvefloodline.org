@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T17:46:50Z",
+  "generated": "2026-10-27T16:57:35Z",
   "window_days": 90,
   "days_present": 87,
   "horizons": [
@@ -9,142 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-10-23",
-  "latest_epss_date": "2026-10-26",
+  "kev_snapshot_date": "2026-10-26",
+  "latest_epss_date": "2026-10-27",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 41635,
-    "backfilled": 662,
-    "net_total": 40973,
-    "kev": 68,
+    "total": 41436,
+    "backfilled": 646,
+    "net_total": 40790,
+    "kev": 69,
     "cross10_pit": 3,
     "mature_horizon": 30,
-    "cross10_matured": 21,
+    "cross10_matured": 23,
     "matured_eligible_days": 60,
-    "matured_eligible_total": 26500
+    "matured_eligible_total": 26377
   },
   "days": [
-    {
-      "date": "2026-07-29",
-      "epss_model_version": "v2026.06.15",
-      "total": 273,
-      "backfilled": 16,
-      "net_total": 257,
-      "kev": 1,
-      "kev_lag_median": 0,
-      "epss_p90": 0.00441,
-      "epss_max": 0.016,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00441,
-          "max": 0.016,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00547,
-          "max": 0.016,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00488,
-          "max": 0.09816,
-          "coverage": 0.9963,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-20316",
-          "vendor": "Cisco",
-          "product": "Cisco Secure Firewall Management Center (FMC)",
-          "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
-          "epss0": 0.00788,
-          "epss_peak": 0.09816,
-          "kev": true
-        }
-      ]
-    },
     {
       "date": "2026-07-30",
       "epss_model_version": "v2026.06.15",
@@ -6950,7 +6829,7 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "",
           "product": "",
           "title": "",
@@ -6959,7 +6838,7 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "",
           "product": "",
           "title": "",
@@ -7384,26 +7263,50 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00541,
+          "max": 0.8216,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 2,
+            "35": 2,
+            "40": 2,
+            "45": 2,
+            "50": 2,
+            "55": 2,
+            "60": 2,
+            "65": 2,
+            "70": 2,
+            "75": 2,
+            "80": 1,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
-        {
-          "id": "CVE-2026-88772",
-          "vendor": "Citrix NetScaler",
-          "product": "ADC",
-          "title": "Memory overflow vulnerability leading to Remote Code Execution or Denial of Service",
-          "epss0": 0.01238,
-          "epss_peak": 0.01301,
-          "kev": true
-        },
         {
           "id": "CVE-2026-88771",
           "vendor": "Citrix NetScaler",
           "product": "ADC",
           "title": "A remote code execution vulnerability exists due to improper input validation, which can allow an unauthenticated attacker to execute arbitrary commands",
           "epss0": 0.01026,
-          "epss_peak": 0.01063,
+          "epss_peak": 0.8216,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-88772",
+          "vendor": "Citrix NetScaler",
+          "product": "ADC",
+          "title": "Memory overflow vulnerability leading to Remote Code Execution or Denial of Service",
+          "epss0": 0.01238,
+          "epss_peak": 0.78162,
           "kev": true
         }
       ]
@@ -9595,7 +9498,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00468,
+          "max": 0.03472,
+          "coverage": 0.9995,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9607,8 +9534,8 @@
       "total": 476,
       "backfilled": 23,
       "net_total": 453,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 2,
+      "kev_lag_median": 5,
       "epss_p90": 0.00458,
       "epss_max": 0.05757,
       "coverage": 1.0,
@@ -9670,7 +9597,7 @@
           "title": "RCE via stale global state",
           "epss0": 0.05757,
           "epss_peak": 0.05757,
-          "kev": false
+          "kev": true
         },
         {
           "id": "CVE-2026-109618",
@@ -9679,7 +9606,7 @@
           "title": "RCE via OOM corruption",
           "epss0": 0.05307,
           "epss_peak": 0.05307,
-          "kev": false
+          "kev": true
         }
       ]
     },
@@ -9791,6 +9718,69 @@
         "0": {
           "p90": 0.00546,
           "max": 0.01095,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-10-24",
+      "epss_model_version": "v2026.06.15",
+      "total": 74,
+      "backfilled": 0,
+      "net_total": 74,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.0047,
+      "epss_max": 0.01377,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.0047,
+          "max": 0.01377,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
