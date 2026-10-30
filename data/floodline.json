@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T17:42:23Z",
+  "generated": "2026-10-30T17:21:32Z",
   "window_days": 90,
   "days_present": 87,
   "horizons": [
@@ -9,142 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-10-28",
-  "latest_epss_date": "2026-10-29",
+  "kev_snapshot_date": "2026-10-29",
+  "latest_epss_date": "2026-10-30",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 41481,
-    "backfilled": 623,
-    "net_total": 40858,
+    "total": 41950,
+    "backfilled": 621,
+    "net_total": 41329,
     "kev": 69,
     "cross10_pit": 3,
     "mature_horizon": 30,
-    "cross10_matured": 22,
+    "cross10_matured": 24,
     "matured_eligible_days": 60,
-    "matured_eligible_total": 26446
+    "matured_eligible_total": 26930
   },
   "days": [
-    {
-      "date": "2026-08-01",
-      "epss_model_version": "v2026.06.15",
-      "total": 148,
-      "backfilled": 6,
-      "net_total": 142,
-      "kev": 1,
-      "kev_lag_median": 3,
-      "epss_p90": 0.00443,
-      "epss_max": 0.01483,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00443,
-          "max": 0.01483,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00472,
-          "max": 0.01483,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00485,
-          "max": 0.40158,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-18556",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.0027,
-          "epss_peak": 0.40158,
-          "kev": true
-        }
-      ]
-    },
     {
       "date": "2026-08-02",
       "epss_model_version": "v2026.06.15",
@@ -6570,7 +6449,7 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "",
           "product": "",
           "title": "",
@@ -6579,7 +6458,7 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "",
           "product": "",
           "title": "",
@@ -7375,7 +7254,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00554,
+          "max": 0.38928,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 3,
+            "15": 2,
+            "20": 2,
+            "25": 1,
+            "30": 1,
+            "35": 1,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7385,7 +7288,7 @@
           "product": "Cisco Catalyst SD-WAN Manager",
           "title": "Cisco Catalyst SD-WAN Manager System Account Authorization Bypass Vulnerability",
           "epss0": 0.01096,
-          "epss_peak": 0.01819,
+          "epss_peak": 0.38928,
           "kev": true
         },
         {
@@ -7394,7 +7297,7 @@
           "product": "Zammad",
           "title": "Undisclosed RCE in Zammad v6.3 and higher",
           "epss0": 0.00709,
-          "epss_peak": 0.01396,
+          "epss_peak": 0.22478,
           "kev": true
         },
         {
@@ -7403,7 +7306,7 @@
           "product": "Zammad",
           "title": "Undisclosed LPE in Zammad v1.5.0 to v7.1.0-alpha",
           "epss0": 0.00319,
-          "epss_peak": 0.00629,
+          "epss_peak": 0.10936,
           "kev": true
         }
       ]
@@ -8506,7 +8409,7 @@
       "total": 2287,
       "backfilled": 12,
       "net_total": 2275,
-      "kev": 2,
+      "kev": 3,
       "kev_lag_median": 0,
       "epss_p90": 0.00831,
       "epss_max": 0.25982,
@@ -8602,6 +8505,15 @@
           "title": "Windows Shell Security Feature Bypass Vulnerability",
           "epss0": 0.01506,
           "epss_peak": 0.01512,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-97229",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00559,
+          "epss_peak": 0.00559,
           "kev": true
         }
       ]
@@ -9586,7 +9498,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00457,
+          "max": 0.021,
+          "coverage": 0.998,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9753,6 +9689,69 @@
         "0": {
           "p90": 0.00481,
           "max": 0.02741,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-10-27",
+      "epss_model_version": "v2026.06.15",
+      "total": 617,
+      "backfilled": 4,
+      "net_total": 613,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00479,
+      "epss_max": 0.02683,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00479,
+          "max": 0.02683,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
