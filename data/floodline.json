@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T17:21:32Z",
+  "generated": "2026-10-31T16:26:15Z",
   "window_days": 90,
   "days_present": 87,
   "horizons": [
@@ -9,142 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-10-29",
-  "latest_epss_date": "2026-10-30",
+  "kev_snapshot_date": "2026-10-30",
+  "latest_epss_date": "2026-10-31",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 41950,
-    "backfilled": 621,
-    "net_total": 41329,
-    "kev": 69,
+    "total": 42526,
+    "backfilled": 626,
+    "net_total": 41900,
+    "kev": 70,
     "cross10_pit": 3,
     "mature_horizon": 30,
-    "cross10_matured": 24,
+    "cross10_matured": 23,
     "matured_eligible_days": 60,
-    "matured_eligible_total": 26930
+    "matured_eligible_total": 27274
   },
   "days": [
-    {
-      "date": "2026-08-02",
-      "epss_model_version": "v2026.06.15",
-      "total": 50,
-      "backfilled": 4,
-      "net_total": 46,
-      "kev": 1,
-      "kev_lag_median": 1,
-      "epss_p90": 0.00296,
-      "epss_max": 0.01477,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00296,
-          "max": 0.01477,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00335,
-          "max": 0.04103,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.0034,
-          "max": 0.54068,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-18577",
-          "vendor": "N-able",
-          "product": "N-central",
-          "title": "Incomplete patch leads to administrative account takeover",
-          "epss0": 0.01477,
-          "epss_peak": 0.54068,
-          "kev": true
-        }
-      ]
-    },
     {
       "date": "2026-08-03",
       "epss_model_version": "v2026.06.15",
@@ -6449,7 +6328,7 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "",
           "product": "",
           "title": "",
@@ -6458,7 +6337,7 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "",
           "product": "",
           "title": "",
@@ -7393,7 +7272,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00523,
+          "max": 0.04573,
+          "coverage": 0.9975,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7403,7 +7306,7 @@
           "product": "FortiMail",
           "title": "",
           "epss0": 0.01779,
-          "epss_peak": 0.02201,
+          "epss_peak": 0.04573,
           "kev": true
         }
       ]
@@ -8657,7 +8560,7 @@
       "total": 558,
       "backfilled": 11,
       "net_total": 547,
-      "kev": 2,
+      "kev": 3,
       "kev_lag_median": 5,
       "epss_p90": 0.00514,
       "epss_max": 0.08634,
@@ -8747,6 +8650,15 @@
           "kev": true
         },
         {
+          "id": "CVE-2026-111357",
+          "vendor": "",
+          "product": "",
+          "title": "",
+          "epss0": 0.00247,
+          "epss_peak": 0.00247,
+          "kev": true
+        },
+        {
           "id": "CVE-2026-110936",
           "vendor": "",
           "product": "",
@@ -8771,15 +8683,6 @@
           "title": "Netgate pfSense CE 2.7.0 through 2.9.0 OS Command Injection via Traffic Shaper Limiters",
           "epss0": 0.08445,
           "epss_peak": 0.08445,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-111215",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.07054,
-          "epss_peak": 0.07054,
           "kev": false
         }
       ]
@@ -9585,7 +9488,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00444,
+          "max": 0.01377,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9779,6 +9706,79 @@
         "90": null
       },
       "named": []
+    },
+    {
+      "date": "2026-10-28",
+      "epss_model_version": "v2026.06.15",
+      "total": 626,
+      "backfilled": 9,
+      "net_total": 617,
+      "kev": 1,
+      "kev_lag_median": 1,
+      "epss_p90": 0.00438,
+      "epss_max": 0.02186,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00438,
+          "max": 0.02186,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-76418",
+          "vendor": "Cisco",
+          "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
+          "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+          "epss0": 0.00574,
+          "epss_peak": 0.00574,
+          "kev": true
+        }
+      ]
     }
   ]
 }
