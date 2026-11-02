@@ -3,7 +3,6 @@
 from datetime import date, timedelta
 
 import pytest
-
 from floodline import sources, store
 
 

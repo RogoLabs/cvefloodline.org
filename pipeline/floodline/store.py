@@ -12,7 +12,7 @@ from __future__ import annotations
 import json
 import logging
 import os
-from datetime import date, datetime, timedelta, timezone
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 from . import sources
@@ -144,7 +144,7 @@ def write(days: list[dict], kev_snapshot_date: str, matured_meta: dict) -> Path:
     trimmed = [d for d in ordered if d["date"] >= cutoff][-sources.WINDOW_DAYS:]
 
     doc = {
-        "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "window_days": sources.WINDOW_DAYS,
         "days_present": len(trimmed),
         "horizons": sources.HORIZONS,

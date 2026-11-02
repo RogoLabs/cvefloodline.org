@@ -77,7 +77,7 @@ def get(url: str, *, accept: str | None = None, retries: int = 3) -> requests.Re
                 time.sleep(wait)
                 continue
             resp.raise_for_status()
-        except requests.RequestException as exc:  # noqa: PERF203
+        except requests.RequestException as exc:
             last = exc
             if attempt < retries:
                 wait = 2 ** attempt
