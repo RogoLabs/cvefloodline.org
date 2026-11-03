@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T20:57:49Z",
+  "generated": "2026-11-03T18:44:40Z",
   "window_days": 90,
   "days_present": 87,
   "horizons": [
@@ -10,141 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-10-30",
-  "latest_epss_date": "2026-11-02",
+  "latest_epss_date": "2026-11-03",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 43144,
-    "backfilled": 632,
-    "net_total": 42512,
+    "total": 42824,
+    "backfilled": 630,
+    "net_total": 42194,
     "kev": 70,
     "cross10_pit": 3,
     "mature_horizon": 30,
-    "cross10_matured": 24,
+    "cross10_matured": 27,
     "matured_eligible_days": 60,
-    "matured_eligible_total": 27199
+    "matured_eligible_total": 26832
   },
   "days": [
-    {
-      "date": "2026-08-05",
-      "epss_model_version": "v2026.06.15",
-      "total": 431,
-      "backfilled": 4,
-      "net_total": 427,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00439,
-      "epss_max": 0.02384,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00439,
-          "max": 0.02384,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00483,
-          "max": 0.02384,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00483,
-          "max": 0.0571,
-          "coverage": 0.9977,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": null
-      },
-      "named": [
-        {
-          "id": "CVE-2026-20200",
-          "vendor": "",
-          "product": "",
-          "title": "",
-          "epss0": 0.00843,
-          "epss_peak": 0.0571,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-08-06",
       "epss_model_version": "v2026.06.15",
@@ -7403,7 +7282,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00375,
+          "max": 0.81763,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 3,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 2,
+            "35": 2,
+            "40": 2,
+            "45": 2,
+            "50": 2,
+            "55": 2,
+            "60": 2,
+            "65": 2,
+            "70": 2,
+            "75": 2,
+            "80": 1,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7413,16 +7316,7 @@
           "product": "",
           "title": "",
           "epss0": 0.01843,
-          "epss_peak": 0.01843,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-88779",
-          "vendor": "NetScaler",
-          "product": "ADC",
-          "title": "Memory overflow vulnerability  leading to Denial of Service",
-          "epss0": 0.00276,
-          "epss_peak": 0.00592,
+          "epss_peak": 0.81763,
           "kev": true
         },
         {
@@ -7431,7 +7325,16 @@
           "product": "",
           "title": "",
           "epss0": 0.00383,
-          "epss_peak": 0.00383,
+          "epss_peak": 0.7947,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-88779",
+          "vendor": "NetScaler",
+          "product": "ADC",
+          "title": "Memory overflow vulnerability  leading to Denial of Service",
+          "epss0": 0.00276,
+          "epss_peak": 0.11388,
           "kev": true
         }
       ]
@@ -9055,20 +8958,20 @@
       },
       "named": [
         {
-          "id": "CVE-2026-109619",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via stale global state",
-          "epss0": 0.05757,
-          "epss_peak": 0.99999,
-          "kev": true
-        },
-        {
           "id": "CVE-2026-109618",
           "vendor": "PHP Group",
           "product": "PHP",
           "title": "RCE via OOM corruption",
           "epss0": 0.05307,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-109619",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via stale global state",
+          "epss0": 0.05757,
           "epss_peak": 0.99999,
           "kev": true
         }
@@ -9585,7 +9488,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00488,
+          "max": 0.02683,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9762,6 +9689,69 @@
         "0": {
           "p90": 0.00454,
           "max": 0.02835,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-10-31",
+      "epss_model_version": "v2026.06.15",
+      "total": 111,
+      "backfilled": 2,
+      "net_total": 109,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00541,
+      "epss_max": 0.01128,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00541,
+          "max": 0.01128,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
