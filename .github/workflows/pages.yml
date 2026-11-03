@@ -7,6 +7,13 @@ on:
       - "web/**"
       - "data/**"
       - ".github/workflows/pages.yml"
+  # Data commits are pushed with GITHUB_TOKEN, and pushes made with that token
+  # never trigger other workflows, so the push filter above misses them.
+  # Deploy after each data run instead.
+  workflow_run:
+    workflows: ["Daily floodline update", "Bootstrap floodline (manual)"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -20,6 +27,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
