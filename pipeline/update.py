@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import logging
 import sys
-from datetime import date, datetime, timedelta, timezone
+from datetime import UTC, date, datetime, timedelta
 
 from floodline import build, cves, store
 from floodline.sources import SETTLE_DAYS, WINDOW_DAYS
@@ -23,7 +23,7 @@ log = logging.getLogger("floodline")
 
 
 def main() -> int:
-    today = datetime.now(timezone.utc).date()
+    today = datetime.now(UTC).date()
     newest = today - timedelta(days=SETTLE_DAYS)
     oldest = today - timedelta(days=WINDOW_DAYS - 1)
 

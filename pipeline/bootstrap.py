@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import logging
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 from floodline import build, cves, store
 from floodline.sources import BOOTSTRAP_DAYS, SETTLE_DAYS
@@ -21,7 +21,7 @@ log = logging.getLogger("floodline")
 
 
 def main() -> int:
-    today = datetime.now(timezone.utc).date()
+    today = datetime.now(UTC).date()
     last_day = today - timedelta(days=SETTLE_DAYS)
     first_day = today - timedelta(days=BOOTSTRAP_DAYS)
     targets = [first_day + timedelta(days=i) for i in range((last_day - first_day).days + 1)]
