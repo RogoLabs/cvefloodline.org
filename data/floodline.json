@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T00:20:18Z",
+  "generated": "2026-11-04T18:58:14Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -10,7 +10,7 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-11-03",
-  "latest_epss_date": "2026-11-03",
+  "latest_epss_date": "2026-11-04",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
     "total": 43625,
@@ -19,9 +19,9 @@
     "kev": 71,
     "cross10_pit": 3,
     "mature_horizon": 30,
-    "cross10_matured": 27,
-    "matured_eligible_days": 62,
-    "matured_eligible_total": 27535
+    "cross10_matured": 28,
+    "matured_eligible_days": 63,
+    "matured_eligible_total": 27946
   },
   "days": [
     {
@@ -411,9 +411,42 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00716,
+          "max": 0.2239,
+          "coverage": 0.9978,
+          "thresholds": {
+            "10": 2,
+            "15": 1,
+            "20": 1,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": [
+        {
+          "id": "CVE-2026-5430",
+          "vendor": "WSO2",
+          "product": "WSO2 Universal Gateway",
+          "title": "Authentication Bypass via JWT Algorithm Mismatch in Multiple WSO2 Products Allows Account Takeover",
+          "epss0": 0.00223,
+          "epss_peak": 0.2239,
+          "kev": true
+        },
         {
           "id": "CVE-2026-65400",
           "vendor": "Apple",
@@ -421,15 +454,6 @@
           "title": "",
           "epss0": 0.00304,
           "epss_peak": 0.09905,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-5430",
-          "vendor": "WSO2",
-          "product": "WSO2 Universal Gateway",
-          "title": "Authentication Bypass via JWT Algorithm Mismatch in Multiple WSO2 Products Allows Account Takeover",
-          "epss0": 0.00223,
-          "epss_peak": 0.00223,
           "kev": true
         },
         {
@@ -6265,19 +6289,19 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server arbitrary-host SSRF",
+          "title": "Plex Media Server SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server SSRF",
+          "title": "Plex Media Server arbitrary-host SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
@@ -7701,7 +7725,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00395,
+          "max": 0.99664,
+          "coverage": 0.9976,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 1,
+            "30": 1,
+            "35": 1,
+            "40": 1,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 1,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "80": 1,
+            "85": 1,
+            "90": 1,
+            "95": 1
+          }
+        },
         "90": null
       },
       "named": [
@@ -7711,7 +7759,7 @@
           "product": "Bamboo Data Center",
           "title": "",
           "epss0": 0.00738,
-          "epss_peak": 0.02777,
+          "epss_peak": 0.99664,
           "kev": true
         }
       ]
@@ -9855,7 +9903,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00458,
+          "max": 0.02835,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -9866,7 +9938,7 @@
           "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
           "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
           "epss0": 0.00574,
-          "epss_peak": 0.00574,
+          "epss_peak": 0.00821,
           "kev": true
         }
       ]
