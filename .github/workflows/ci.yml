@@ -37,3 +37,17 @@ jobs:
       - name: Type-check & build
         run: npm run build
         working-directory: web
+      # A build can succeed and still ship unstyled pages (the Tailwind 4 bump
+      # did exactly that). Fail if theme utilities the page relies on are gone.
+      - name: Check built CSS has theme utilities
+        working-directory: web
+        run: |
+          css=$(cat dist/assets/*.css)
+          missing=0
+          for cls in px-4 text-sm max-w-6xl rounded-2xl font-sans text-slate-200 bg-panel; do
+            if ! grep -q "\.$cls[^-a-zA-Z0-9]" <<<"$css"; then
+              echo "::error::built CSS is missing .$cls"
+              missing=1
+            fi
+          done
+          exit $missing

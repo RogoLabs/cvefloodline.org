@@ -93,6 +93,26 @@ def _scan_delta(
                 meta[cve_id] = _meta_of(record)
 
 
+def record_url(cve_id: str) -> str:
+    _, year, num = cve_id.split("-")
+    return sources.CVELIST_RECORD_URL.format(year=year, bucket=int(num) // 1000, cve_id=cve_id)
+
+
+def fetch_meta(cve_ids: Iterable[str]) -> dict[str, dict]:
+    """Naming metadata for individual CVEs, read from their cvelistV5 records.
+
+    Best effort: a CVE whose record can't be fetched or parsed is left out, so a
+    flaky lookup costs a name on the site, never the whole run.
+    """
+    meta: dict[str, dict] = {}
+    for cve_id in cve_ids:
+        try:
+            meta[cve_id] = _meta_of(get(record_url(cve_id), retries=2).json())
+        except Exception as exc:  # noqa: BLE001 -- unnamed card beats a failed run
+            log.warning("no cvelistV5 record for %s (%s)", cve_id, exc)
+    return meta
+
+
 def published_by_day(
     dates: Iterable[date],
 ) -> tuple[dict[date, set[str]], set[date], dict[str, dict]]:

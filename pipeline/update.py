@@ -25,7 +25,9 @@ log = logging.getLogger("floodline")
 def main() -> int:
     today = datetime.now(UTC).date()
     newest = today - timedelta(days=SETTLE_DAYS)
-    oldest = today - timedelta(days=WINDOW_DAYS - 1)
+    # Anchor on the newest settled day, not today, so the window holds a full
+    # WINDOW_DAYS of data (store.write trims on the same anchor).
+    oldest = newest - timedelta(days=WINDOW_DAYS - 1)
 
     doc = store.load()
     stored = store.load_cohorts()

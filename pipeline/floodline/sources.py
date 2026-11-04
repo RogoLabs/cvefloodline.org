@@ -70,6 +70,12 @@ CVELIST_EOD_DOWNLOAD = (
     "https://github.com/CVEProject/cvelistV5/releases/download/"
     "{tag}/{asset}"
 )
+# A single CVE record, used to name a CVE whose day delta was fetched before it
+# became notable (cves/2026/65xxx/CVE-2026-65400.json).
+CVELIST_RECORD_URL = (
+    "https://raw.githubusercontent.com/CVEProject/cvelistV5/main/"
+    "cves/{year}/{bucket}xxx/{cve_id}.json"
+)
 
 # CISA Known Exploited Vulnerabilities catalog (current snapshot).
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"

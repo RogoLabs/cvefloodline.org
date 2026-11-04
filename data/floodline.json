@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-03T18:44:40Z",
+  "generated": "2026-11-04T00:20:18Z",
   "window_days": 90,
-  "days_present": 87,
+  "days_present": 90,
   "horizons": [
     0,
     7,
@@ -9,21 +9,301 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-10-30",
+  "kev_snapshot_date": "2026-11-03",
   "latest_epss_date": "2026-11-03",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 42824,
-    "backfilled": 630,
-    "net_total": 42194,
-    "kev": 70,
+    "total": 43625,
+    "backfilled": 637,
+    "net_total": 42988,
+    "kev": 71,
     "cross10_pit": 3,
     "mature_horizon": 30,
     "cross10_matured": 27,
-    "matured_eligible_days": 60,
-    "matured_eligible_total": 26832
+    "matured_eligible_days": 62,
+    "matured_eligible_total": 27535
   },
   "days": [
+    {
+      "date": "2026-08-04",
+      "epss_model_version": "v2026.06.15",
+      "total": 272,
+      "backfilled": 3,
+      "net_total": 269,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00522,
+      "epss_max": 0.02705,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00522,
+          "max": 0.02705,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": {
+          "p90": 0.00537,
+          "max": 0.02705,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "30": {
+          "p90": 0.00552,
+          "max": 0.02705,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "90": {
+          "p90": 0.00849,
+          "max": 0.04731,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
+      },
+      "named": []
+    },
+    {
+      "date": "2026-08-05",
+      "epss_model_version": "v2026.06.15",
+      "total": 431,
+      "backfilled": 4,
+      "net_total": 427,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00439,
+      "epss_max": 0.02384,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00439,
+          "max": 0.02384,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": {
+          "p90": 0.00483,
+          "max": 0.02384,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "30": {
+          "p90": 0.00483,
+          "max": 0.0571,
+          "coverage": 0.9977,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "90": {
+          "p90": 0.00781,
+          "max": 0.03822,
+          "coverage": 0.993,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
+      },
+      "named": [
+        {
+          "id": "CVE-2026-20200",
+          "vendor": "Cisco",
+          "product": "Cisco Unified Computing System (Standalone)",
+          "title": "Cisco Integrated Management Controller Argument Injection and Remote Code Execution Vulnerability",
+          "epss0": 0.00843,
+          "epss_peak": 0.0571,
+          "kev": false
+        }
+      ]
+    },
     {
       "date": "2026-08-06",
       "epss_model_version": "v2026.06.15",
@@ -136,8 +416,8 @@
       "named": [
         {
           "id": "CVE-2026-65400",
-          "vendor": "",
-          "product": "",
+          "vendor": "Apple",
+          "product": "macOS",
           "title": "",
           "epss0": 0.00304,
           "epss_peak": 0.09905,
@@ -145,18 +425,18 @@
         },
         {
           "id": "CVE-2026-5430",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "WSO2",
+          "product": "WSO2 Universal Gateway",
+          "title": "Authentication Bypass via JWT Algorithm Mismatch in Multiple WSO2 Products Allows Account Takeover",
           "epss0": 0.00223,
           "epss_peak": 0.00223,
           "kev": true
         },
         {
           "id": "CVE-2026-15733",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "WGDashboard",
+          "product": "WGDashboard",
+          "title": "WGDashboard Remote Code Execution vulnerability",
           "epss0": 0.01528,
           "epss_peak": 0.13545,
           "kev": false
@@ -275,8 +555,8 @@
       "named": [
         {
           "id": "CVE-2026-64638",
-          "vendor": "",
-          "product": "",
+          "vendor": "WordPress",
+          "product": "WordPress",
           "title": "",
           "epss0": 0.00766,
           "epss_peak": 0.31204,
@@ -739,9 +1019,9 @@
       "named": [
         {
           "id": "CVE-2026-71362",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Adobe",
+          "product": "Adobe Commerce",
+          "title": "Adobe Commerce | Incorrect Authorization (CWE-863)",
           "epss0": 0.00478,
           "epss_peak": 0.25136,
           "kev": true
@@ -766,18 +1046,18 @@
         },
         {
           "id": "CVE-2026-65660",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Microsoft",
+          "product": "Microsoft SharePoint Enterprise Server 2016",
+          "title": "Microsoft SharePoint Server Remote Code Execution Vulnerability",
           "epss0": 0.00683,
           "epss_peak": 0.00807,
           "kev": true
         },
         {
           "id": "CVE-2026-48376",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Adobe",
+          "product": "ColdFusion 2025",
+          "title": "ColdFusion | Improper Encoding or Escaping of Output (CWE-116)",
           "epss0": 0.00528,
           "epss_peak": 0.15479,
           "kev": false
@@ -896,18 +1176,18 @@
       "named": [
         {
           "id": "CVE-2026-66384",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "jfrog",
+          "product": "artifactory",
+          "title": "Authenticated users may write data outside the intended Docker cache path",
           "epss0": 0.00264,
           "epss_peak": 0.00579,
           "kev": true
         },
         {
           "id": "CVE-2026-42018",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "jfrog",
+          "product": "artifactory",
+          "title": "Anonymous user token generation exposure in JFrog Artifactory",
           "epss0": 0.00298,
           "epss_peak": 0.00349,
           "kev": true
@@ -1026,8 +1306,8 @@
       "named": [
         {
           "id": "CVE-2026-73570",
-          "vendor": "",
-          "product": "",
+          "vendor": "Zimbra",
+          "product": "Collaboration",
           "title": "",
           "epss0": 0.00539,
           "epss_peak": 0.32383,
@@ -1147,9 +1427,9 @@
       "named": [
         {
           "id": "CVE-2026-19681",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Tenable, Inc.",
+          "product": "Security Center",
+          "title": "Command Injection",
           "epss0": 0.02238,
           "epss_peak": 0.07801,
           "kev": false
@@ -1499,9 +1779,9 @@
         },
         {
           "id": "CVE-2026-19478",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "GitLab",
+          "product": "GitLab",
+          "title": "Improper Control of Generation of Code ('Code Injection') in GitLab",
           "epss0": 0.00719,
           "epss_peak": 0.06001,
           "kev": false
@@ -1731,9 +2011,9 @@
       "named": [
         {
           "id": "CVE-2026-19490",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "NetScaler",
+          "product": "ADC",
+          "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2026-19490",
           "epss0": 0.00345,
           "epss_peak": 0.05597,
           "kev": true
@@ -2555,9 +2835,9 @@
         },
         {
           "id": "CVE-2026-19632",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "cozmoslabs",
+          "product": "TranslatePress \u2013 Translate Multilingual sites with AI Translation",
+          "title": "TranslatePress \u2013 Multilingual <= 3.3.1 - Unauthenticated Account Takeover via Password Reset Link Disclosure",
           "epss0": 0.00787,
           "epss_peak": 0.08964,
           "kev": false
@@ -2676,27 +2956,27 @@
       "named": [
         {
           "id": "CVE-2026-18885",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "ServiceNow",
+          "product": "ServiceNow AI Platform",
+          "title": "Unauthenticated Remote Code Execution in GraphQL Composite Data API",
           "epss0": 0.00383,
           "epss_peak": 0.07241,
           "kev": false
         },
         {
           "id": "CVE-2026-47864",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Spring",
+          "product": "Spring Integration",
+          "title": "Unsafe Java deserialization in SerializingHttpMessageConverter \u2014 remote code execution",
           "epss0": 0.03441,
           "epss_peak": 0.05914,
           "kev": false
         },
         {
           "id": "CVE-2026-18886",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "ServiceNow",
+          "product": "ServiceNow AI Platform",
+          "title": "Unauthenticated Privilege Escalation via System Configuration Image Upload Processor",
           "epss0": 0.00264,
           "epss_peak": 0.05041,
           "kev": false
@@ -2815,9 +3095,9 @@
       "named": [
         {
           "id": "CVE-2026-82329",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "jfrog",
+          "product": "artifactory",
+          "title": "Potential authentication bypass leading to administrative access in Artifactory",
           "epss0": 0.00377,
           "epss_peak": 0.14121,
           "kev": true
@@ -3770,36 +4050,36 @@
       "named": [
         {
           "id": "CVE-2026-86060",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Mikrotik",
+          "product": "RouterOS",
+          "title": "SSH session privilege manipulation via a crafted username in Mikrotik RouterOS",
           "epss0": 0.00401,
           "epss_peak": 0.06392,
           "kev": true
         },
         {
           "id": "CVE-2026-67277",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Mikrotik",
+          "product": "RouterOS",
+          "title": "Kernel memory disclosure and denial of service in MikroTik RouterOS btest service",
           "epss0": 0.00435,
           "epss_peak": 0.0156,
           "kev": true
         },
         {
           "id": "CVE-2026-67279",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Mikrotik",
+          "product": "RouterOS",
+          "title": "SSH Pre-Authentication Rekey State Bypass in MikroTik RouterOS",
           "epss0": 0.00446,
           "epss_peak": 0.01027,
           "kev": true
         },
         {
           "id": "CVE-2026-67276",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Mikrotik",
+          "product": "RouterOS",
+          "title": "SSH user impersonation possible in Mikrotik RouterOS",
           "epss0": 0.00249,
           "epss_peak": 0.06451,
           "kev": false
@@ -4169,9 +4449,9 @@
         },
         {
           "id": "CVE-2026-84869",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "ConnectWise",
+          "product": "ScreenConnect",
+          "title": "ScreenConnect Client: Guest-to-Host File Execution via File-Transfer Actions",
           "epss0": 0.00382,
           "epss_peak": 0.00924,
           "kev": true
@@ -4299,9 +4579,9 @@
       "named": [
         {
           "id": "CVE-2026-85102",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "checkpoint",
+          "product": "Quantum Security Gateway",
+          "title": "Improper Certificate Validation in Quantum Security Gateway",
           "epss0": 0.00329,
           "epss_peak": 0.07546,
           "kev": true
@@ -5134,9 +5414,9 @@
         },
         {
           "id": "CVE-2026-77692",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "ISC",
+          "product": "BIND 9",
+          "title": "Unauthenticated remote crash of named via a single DoH SIG(0) request",
           "epss0": 0.0048,
           "epss_peak": 0.06558,
           "kev": false
@@ -5829,8 +6109,8 @@
         },
         {
           "id": "CVE-2026-87902",
-          "vendor": "",
-          "product": "",
+          "vendor": "WordPress",
+          "product": "WordPress",
           "title": "",
           "epss0": 0.0042,
           "epss_peak": 0.39979,
@@ -5968,36 +6248,36 @@
       "named": [
         {
           "id": "CVE-2026-96656",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Plex",
+          "product": "Media Server",
+          "title": "Plex Media Server arbitrary file write",
           "epss0": 0.00339,
           "epss_peak": 0.00816,
           "kev": true
         },
         {
           "id": "CVE-2026-96654",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Plex",
+          "product": "Media Server",
+          "title": "Plex Media Server URL injection",
           "epss0": 0.00217,
           "epss_peak": 0.00465,
           "kev": true
         },
         {
           "id": "CVE-2026-96655",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Plex",
+          "product": "Media Server",
+          "title": "Plex Media Server arbitrary-host SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
         },
         {
           "id": "CVE-2026-96652",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Plex",
+          "product": "Media Server",
+          "title": "Plex Media Server SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
@@ -7080,9 +7360,9 @@
       "named": [
         {
           "id": "CVE-2026-90970",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "GitLab",
+          "product": "GitLab AI Gateway",
+          "title": "Improper Neutralization of Special Elements Used in a Template Engine in GitLab AI Gateway",
           "epss0": 0.00943,
           "epss_peak": 0.17488,
           "kev": false
@@ -7312,18 +7592,18 @@
       "named": [
         {
           "id": "CVE-2026-105134",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Ahsay",
+          "product": "AhsayCBS",
+          "title": "Ahsay AhsayCBS Replication Receiver UpdateReceivers.do os command injection",
           "epss0": 0.01843,
           "epss_peak": 0.81763,
           "kev": true
         },
         {
           "id": "CVE-2026-105133",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Ahsay",
+          "product": "AhsayCBS",
+          "title": "Ahsay AhsayCBS API ApiStructsAction.java checkSysPwd improper authentication",
           "epss0": 0.00383,
           "epss_peak": 0.7947,
           "kev": true
@@ -7427,8 +7707,8 @@
       "named": [
         {
           "id": "CVE-2026-21589",
-          "vendor": "",
-          "product": "",
+          "vendor": "Atlassian",
+          "product": "Bamboo Data Center",
           "title": "",
           "epss0": 0.00738,
           "epss_peak": 0.02777,
@@ -8151,9 +8431,9 @@
         },
         {
           "id": "CVE-2026-97229",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "GitLab",
+          "product": "GitLab",
+          "title": "Integer Overflow or Wraparound in GitLab",
           "epss0": 0.00559,
           "epss_peak": 0.00559,
           "kev": true
@@ -8257,8 +8537,8 @@
         },
         {
           "id": "CVE-2026-106931",
-          "vendor": "",
-          "product": "",
+          "vendor": "EG Secure Solutions Inc.",
+          "product": "SiteGuard Server Edition for Apache httpd",
           "title": "",
           "epss0": 0.00662,
           "epss_peak": 0.01367,
@@ -8266,8 +8546,8 @@
         },
         {
           "id": "CVE-2026-110447",
-          "vendor": "",
-          "product": "",
+          "vendor": "Collabora",
+          "product": "Collabora Online - Built-in CODE Server",
           "title": "",
           "epss0": 0.01225,
           "epss_peak": 0.01225,
@@ -8390,8 +8670,8 @@
         },
         {
           "id": "CVE-2026-111357",
-          "vendor": "",
-          "product": "",
+          "vendor": "Ivanti",
+          "product": "Connect Secure",
           "title": "",
           "epss0": 0.00247,
           "epss_peak": 0.00247,
@@ -8399,8 +8679,8 @@
         },
         {
           "id": "CVE-2026-110936",
-          "vendor": "",
-          "product": "",
+          "vendor": "Siemens",
+          "product": "Siemens Software Center",
           "title": "",
           "epss0": 0.00135,
           "epss_peak": 0.00238,
@@ -8776,8 +9056,8 @@
         {
           "id": "CVE-2026-112195",
           "vendor": "",
-          "product": "",
-          "title": "",
+          "product": "FusionPBX",
+          "title": "FusionPBX Dialplan Editor dialplan.php os command injection",
           "epss0": 0.02479,
           "epss_peak": 0.05045,
           "kev": false
@@ -8958,20 +9238,20 @@
       },
       "named": [
         {
-          "id": "CVE-2026-109618",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via OOM corruption",
-          "epss0": 0.05307,
-          "epss_peak": 0.99999,
-          "kev": true
-        },
-        {
           "id": "CVE-2026-109619",
           "vendor": "PHP Group",
           "product": "PHP",
           "title": "RCE via stale global state",
           "epss0": 0.05757,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-109618",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via OOM corruption",
+          "epss0": 0.05307,
           "epss_peak": 0.99999,
           "kev": true
         }
@@ -9065,9 +9345,9 @@
       "named": [
         {
           "id": "CVE-2026-111497",
-          "vendor": "",
-          "product": "",
-          "title": "",
+          "vendor": "Google",
+          "product": "Brotli",
+          "title": "Out-of-Bounds Write in Google Brotli Decoder",
           "epss0": 0.0048,
           "epss_peak": 0.82641,
           "kev": true
@@ -9723,8 +10003,8 @@
       "total": 111,
       "backfilled": 2,
       "net_total": 109,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 3,
       "epss_p90": 0.00541,
       "epss_max": 0.01128,
       "coverage": 1.0,
@@ -9752,6 +10032,79 @@
         "0": {
           "p90": 0.00541,
           "max": 0.01128,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-119977",
+          "vendor": "WordPress Foundation",
+          "product": "WordPress",
+          "title": "WordPress Core 4.7.0 - 7.1.3 - Unauthenticated Upgrade-Window Staged-Installer Remote Code Execution",
+          "epss0": 0.006,
+          "epss_peak": 0.006,
+          "kev": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "epss_model_version": "v2026.06.15",
+      "total": 98,
+      "backfilled": 0,
+      "net_total": 98,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.01687,
+      "epss_max": 0.03211,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.01687,
+          "max": 0.03211,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
