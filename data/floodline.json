@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T21:41:55Z",
+  "generated": "2026-11-10T18:58:50Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -10,155 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-11-09",
-  "latest_epss_date": "2026-11-09",
+  "latest_epss_date": "2026-11-10",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 44699,
-    "backfilled": 639,
-    "net_total": 44060,
-    "kev": 74,
+    "total": 45096,
+    "backfilled": 640,
+    "net_total": 44456,
+    "kev": 75,
     "cross10_pit": 4,
     "mature_horizon": 30,
     "cross10_matured": 26,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 29071
+    "matured_eligible_total": 29229
   },
   "days": [
-    {
-      "date": "2026-08-09",
-      "epss_model_version": "v2026.06.15",
-      "total": 76,
-      "backfilled": 0,
-      "net_total": 76,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00498,
-      "epss_max": 0.02465,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00498,
-          "max": 0.02465,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00498,
-          "max": 0.02465,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00466,
-          "max": 0.01973,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00668,
-          "max": 0.03568,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": []
-    },
     {
       "date": "2026-08-10",
       "epss_model_version": "v2026.06.15",
@@ -592,25 +457,49 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00739,
+          "max": 0.09983,
+          "coverage": 0.9976,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": [
-        {
-          "id": "CVE-2026-66384",
-          "vendor": "jfrog",
-          "product": "artifactory",
-          "title": "Authenticated users may write data outside the intended Docker cache path",
-          "epss0": 0.00264,
-          "epss_peak": 0.00579,
-          "kev": true
-        },
         {
           "id": "CVE-2026-42018",
           "vendor": "jfrog",
           "product": "artifactory",
           "title": "Anonymous user token generation exposure in JFrog Artifactory",
           "epss0": 0.00298,
-          "epss_peak": 0.00349,
+          "epss_peak": 0.09983,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-66384",
+          "vendor": "jfrog",
+          "product": "artifactory",
+          "title": "Authenticated users may write data outside the intended Docker cache path",
+          "epss0": 0.00264,
+          "epss_peak": 0.00665,
           "kev": true
         }
       ]
@@ -7808,7 +7697,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.0036,
+          "max": 0.04068,
+          "coverage": 0.9957,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -8813,20 +8726,20 @@
       },
       "named": [
         {
-          "id": "CVE-2026-109618",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via OOM corruption",
-          "epss0": 0.05307,
-          "epss_peak": 0.99999,
-          "kev": true
-        },
-        {
           "id": "CVE-2026-109619",
           "vendor": "PHP Group",
           "product": "PHP",
           "title": "RCE via stale global state",
           "epss0": 0.05757,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-109618",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via OOM corruption",
+          "epss0": 0.05307,
           "epss_peak": 0.99999,
           "kev": true
         }
@@ -9972,7 +9885,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00488,
+          "max": 0.04088,
+          "coverage": 0.9885,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10230,6 +10167,79 @@
           "title": "",
           "epss0": 0.00621,
           "epss_peak": 0.00621,
+          "kev": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "epss_model_version": "v2026.06.15",
+      "total": 473,
+      "backfilled": 1,
+      "net_total": 472,
+      "kev": 1,
+      "kev_lag_median": 2,
+      "epss_p90": 0.00567,
+      "epss_max": 0.01908,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00567,
+          "max": 0.01908,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-123218",
+          "vendor": "IBM",
+          "product": "Aspera Faspex",
+          "title": "IBM Aspera Faspex Authorization Bypass",
+          "epss0": 0.00396,
+          "epss_peak": 0.00396,
           "kev": true
         }
       ]
