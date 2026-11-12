@@ -19,7 +19,7 @@
     "sharp": "^0.35.5",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",
-    "vite": "^8.3.5"
+    "vite": "^8.3.6"
   },
   "dependencies": {
     "d3": "^7.9.0"
