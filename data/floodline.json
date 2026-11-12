@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T18:57:10Z",
+  "generated": "2026-11-12T19:16:00Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -10,201 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-11-10",
-  "latest_epss_date": "2026-11-11",
+  "latest_epss_date": "2026-11-12",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 44744,
-    "backfilled": 632,
-    "net_total": 44112,
-    "kev": 78,
+    "total": 44328,
+    "backfilled": 616,
+    "net_total": 43712,
+    "kev": 74,
     "cross10_pit": 4,
     "mature_horizon": 30,
     "cross10_matured": 25,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 29235
+    "matured_eligible_total": 30587
   },
   "days": [
-    {
-      "date": "2026-08-11",
-      "epss_model_version": "v2026.06.15",
-      "total": 935,
-      "backfilled": 17,
-      "net_total": 918,
-      "kev": 4,
-      "kev_lag_median": 44,
-      "epss_p90": 0.00691,
-      "epss_max": 0.03307,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00691,
-          "max": 0.03307,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00692,
-          "max": 0.0368,
-          "coverage": 0.9968,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00771,
-          "max": 0.25136,
-          "coverage": 0.9968,
-          "thresholds": {
-            "10": 2,
-            "15": 2,
-            "20": 1,
-            "25": 1,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00879,
-          "max": 0.91677,
-          "coverage": 0.9968,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 1,
-            "60": 1,
-            "65": 1,
-            "70": 1,
-            "75": 1,
-            "80": 1,
-            "85": 1,
-            "90": 1,
-            "95": 0
-          }
-        }
-      },
-      "named": [
-        {
-          "id": "CVE-2026-71362",
-          "vendor": "Adobe",
-          "product": "Adobe Commerce",
-          "title": "Adobe Commerce | Incorrect Authorization (CWE-863)",
-          "epss0": 0.00478,
-          "epss_peak": 0.91677,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-65660",
-          "vendor": "Microsoft",
-          "product": "Microsoft SharePoint Enterprise Server 2016",
-          "title": "Microsoft SharePoint Server Remote Code Execution Vulnerability",
-          "epss0": 0.00683,
-          "epss_peak": 0.09852,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-68820",
-          "vendor": "Microsoft",
-          "product": "Windows 10 Version 1607",
-          "title": "Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability",
-          "epss0": 0.00356,
-          "epss_peak": 0.08567,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-20349",
-          "vendor": "Cisco",
-          "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
-          "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
-          "epss0": 0.00969,
-          "epss_peak": 0.02213,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-48376",
-          "vendor": "Adobe",
-          "product": "ColdFusion 2025",
-          "title": "ColdFusion | Improper Encoding or Escaping of Output (CWE-116)",
-          "epss0": 0.00528,
-          "epss_peak": 0.15479,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-08-12",
       "epss_model_version": "v2026.06.15",
@@ -611,7 +430,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00854,
+          "max": 0.04195,
+          "coverage": 0.99,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": [
         {
@@ -7807,7 +7650,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00932,
+          "max": 0.88936,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 2,
+            "35": 2,
+            "40": 2,
+            "45": 2,
+            "50": 2,
+            "55": 2,
+            "60": 2,
+            "65": 2,
+            "70": 1,
+            "75": 1,
+            "80": 1,
+            "85": 1,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7817,16 +7684,7 @@
           "product": "Connect Secure",
           "title": "",
           "epss0": 0.25982,
-          "epss_peak": 0.25982,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-96951",
-          "vendor": "Microsoft",
-          "product": "Outlook.com",
-          "title": "Windows Shell Security Feature Bypass Vulnerability",
-          "epss0": 0.01506,
-          "epss_peak": 0.01512,
+          "epss_peak": 0.88936,
           "kev": true
         },
         {
@@ -7835,7 +7693,16 @@
           "product": "GitLab",
           "title": "Integer Overflow or Wraparound in GitLab",
           "epss0": 0.00559,
-          "epss_peak": 0.00559,
+          "epss_peak": 0.69289,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-96951",
+          "vendor": "Microsoft",
+          "product": "Outlook.com",
+          "title": "Windows Shell Security Feature Bypass Vulnerability",
+          "epss0": 0.01506,
+          "epss_peak": 0.09813,
           "kev": true
         }
       ]
@@ -8648,20 +8515,20 @@
       },
       "named": [
         {
-          "id": "CVE-2026-109619",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via stale global state",
-          "epss0": 0.05757,
-          "epss_peak": 0.99999,
-          "kev": true
-        },
-        {
           "id": "CVE-2026-109618",
           "vendor": "PHP Group",
           "product": "PHP",
           "title": "RCE via OOM corruption",
           "epss0": 0.05307,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-109619",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via stale global state",
+          "epss0": 0.05757,
           "epss_peak": 0.99999,
           "kev": true
         }
@@ -10038,27 +9905,51 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00583,
+          "max": 0.189,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
       "named": [
-        {
-          "id": "CVE-2026-116779",
-          "vendor": "signalwire",
-          "product": "freeswitch",
-          "title": "FreeSWITCH: Inbound SIP MESSAGE can select the api chat proto and run FreeSWITCH API commands",
-          "epss0": 0.01299,
-          "epss_peak": 0.01299,
-          "kev": true
-        },
         {
           "id": "CVE-2026-123158",
           "vendor": "OpenBSD",
           "product": "OpenSSH",
           "title": "",
           "epss0": 0.00976,
-          "epss_peak": 0.00976,
+          "epss_peak": 0.189,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-116779",
+          "vendor": "signalwire",
+          "product": "freeswitch",
+          "title": "FreeSWITCH: Inbound SIP MESSAGE can select the api chat proto and run FreeSWITCH API commands",
+          "epss0": 0.01299,
+          "epss_peak": 0.02473,
           "kev": true
         }
       ]
@@ -10244,6 +10135,69 @@
         "0": {
           "p90": 0.00402,
           "max": 0.00876,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-11-09",
+      "epss_model_version": "v2026.06.15",
+      "total": 519,
+      "backfilled": 1,
+      "net_total": 518,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00501,
+      "epss_max": 0.02794,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00501,
+          "max": 0.02794,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
