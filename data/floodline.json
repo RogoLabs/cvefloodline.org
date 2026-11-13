@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T19:16:00Z",
+  "generated": "2026-11-13T18:52:33Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -9,175 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-11-10",
-  "latest_epss_date": "2026-11-12",
+  "kev_snapshot_date": "2026-11-13",
+  "latest_epss_date": "2026-11-13",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 44328,
-    "backfilled": 616,
-    "net_total": 43712,
-    "kev": 74,
+    "total": 45976,
+    "backfilled": 612,
+    "net_total": 45364,
+    "kev": 75,
     "cross10_pit": 4,
     "mature_horizon": 30,
-    "cross10_matured": 25,
+    "cross10_matured": 27,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 30587
+    "matured_eligible_total": 30995
   },
   "days": [
-    {
-      "date": "2026-08-12",
-      "epss_model_version": "v2026.06.15",
-      "total": 416,
-      "backfilled": 19,
-      "net_total": 397,
-      "kev": 2,
-      "kev_lag_median": 30,
-      "epss_p90": 0.00461,
-      "epss_max": 0.02609,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00461,
-          "max": 0.02609,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.0051,
-          "max": 0.02609,
-          "coverage": 0.9976,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00521,
-          "max": 0.02609,
-          "coverage": 0.9976,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00739,
-          "max": 0.09983,
-          "coverage": 0.9976,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": [
-        {
-          "id": "CVE-2026-42018",
-          "vendor": "jfrog",
-          "product": "artifactory",
-          "title": "Anonymous user token generation exposure in JFrog Artifactory",
-          "epss0": 0.00298,
-          "epss_peak": 0.09983,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-66384",
-          "vendor": "jfrog",
-          "product": "artifactory",
-          "title": "Authenticated users may write data outside the intended Docker cache path",
-          "epss0": 0.00264,
-          "epss_peak": 0.00665,
-          "kev": true
-        }
-      ]
-    },
     {
       "date": "2026-08-13",
       "epss_model_version": "v2026.06.15",
@@ -575,7 +421,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00642,
+          "max": 0.03904,
+          "coverage": 0.9957,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": []
     },
@@ -7789,17 +7659,50 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00643,
+          "max": 0.73307,
+          "coverage": 0.9988,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 1,
+            "35": 1,
+            "40": 1,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 1,
+            "65": 1,
+            "70": 1,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
+        {
+          "id": "CVE-2026-110447",
+          "vendor": "Collabora",
+          "product": "Collabora Online - Built-in CODE Server",
+          "title": "",
+          "epss0": 0.01225,
+          "epss_peak": 0.73307,
+          "kev": true
+        },
         {
           "id": "CVE-2026-76519",
           "vendor": "Cisco",
           "product": "Cisco Secure Email",
           "title": "Cisco Secure Email Gateway Arbitrary File Write Vulnerability",
           "epss0": 0.01743,
-          "epss_peak": 0.01743,
+          "epss_peak": 0.06227,
           "kev": true
         },
         {
@@ -7808,16 +7711,7 @@
           "product": "SiteGuard Server Edition for Apache httpd",
           "title": "",
           "epss0": 0.00662,
-          "epss_peak": 0.01367,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-110447",
-          "vendor": "Collabora",
-          "product": "Collabora Online - Built-in CODE Server",
-          "title": "",
-          "epss0": 0.01225,
-          "epss_peak": 0.01225,
+          "epss_peak": 0.02528,
           "kev": true
         },
         {
@@ -7826,7 +7720,7 @@
           "product": "Cloud NGFW",
           "title": "PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface",
           "epss0": 0.01076,
-          "epss_peak": 0.01215,
+          "epss_peak": 0.02147,
           "kev": true
         },
         {
@@ -8515,20 +8409,20 @@
       },
       "named": [
         {
-          "id": "CVE-2026-109618",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via OOM corruption",
-          "epss0": 0.05307,
-          "epss_peak": 0.99999,
-          "kev": true
-        },
-        {
           "id": "CVE-2026-109619",
           "vendor": "PHP Group",
           "product": "PHP",
           "title": "RCE via stale global state",
           "epss0": 0.05757,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-109618",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via OOM corruption",
+          "epss0": 0.05307,
           "epss_peak": 0.99999,
           "kev": true
         }
@@ -10011,7 +9905,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00524,
+          "max": 0.01864,
+          "coverage": 0.9977,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10106,8 +10024,8 @@
       "total": 323,
       "backfilled": 4,
       "net_total": 319,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 5,
       "epss_p90": 0.00402,
       "epss_max": 0.00876,
       "coverage": 1.0,
@@ -10161,7 +10079,17 @@
         "30": null,
         "90": null
       },
-      "named": []
+      "named": [
+        {
+          "id": "CVE-2026-114713",
+          "vendor": "UnrealIRCd",
+          "product": "UnrealIRCd",
+          "title": "",
+          "epss0": 0.00293,
+          "epss_peak": 0.00293,
+          "kev": true
+        }
+      ]
     },
     {
       "date": "2026-11-09",
@@ -10225,6 +10153,88 @@
         "90": null
       },
       "named": []
+    },
+    {
+      "date": "2026-11-10",
+      "epss_model_version": "v2026.06.15",
+      "total": 2064,
+      "backfilled": 15,
+      "net_total": 2049,
+      "kev": 2,
+      "kev_lag_median": 0,
+      "epss_p90": 0.00948,
+      "epss_max": 0.0388,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00948,
+          "max": 0.0388,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-124194",
+          "vendor": "Microsoft",
+          "product": "Microsoft 365 Apps for Enterprise",
+          "title": "Microsoft Outlook Spoofing Vulnerability",
+          "epss0": 0.0162,
+          "epss_peak": 0.0162,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-125350",
+          "vendor": "Google",
+          "product": "Chrome",
+          "title": "",
+          "epss0": 0.00962,
+          "epss_peak": 0.00962,
+          "kev": true
+        }
+      ]
     }
   ]
 }
