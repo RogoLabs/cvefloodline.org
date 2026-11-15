@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T17:25:05Z",
+  "generated": "2026-11-15T18:06:46Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -10,165 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-11-13",
-  "latest_epss_date": "2026-11-14",
+  "latest_epss_date": "2026-11-15",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 46032,
-    "backfilled": 611,
-    "net_total": 45421,
-    "kev": 74,
-    "cross10_pit": 4,
+    "total": 46211,
+    "backfilled": 616,
+    "net_total": 45595,
+    "kev": 75,
+    "cross10_pit": 5,
     "mature_horizon": 30,
     "cross10_matured": 28,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 30945
+    "matured_eligible_total": 31202
   },
   "days": [
-    {
-      "date": "2026-08-14",
-      "epss_model_version": "v2026.06.15",
-      "total": 201,
-      "backfilled": 3,
-      "net_total": 198,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00601,
-      "epss_max": 0.02795,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00601,
-          "max": 0.02795,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00551,
-          "max": 0.03108,
-          "coverage": 0.995,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00534,
-          "max": 0.07801,
-          "coverage": 0.995,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00854,
-          "max": 0.04195,
-          "coverage": 0.99,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": [
-        {
-          "id": "CVE-2026-19681",
-          "vendor": "Tenable, Inc.",
-          "product": "Security Center",
-          "title": "Command Injection",
-          "epss0": 0.02238,
-          "epss_peak": 0.07801,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-08-15",
       "epss_model_version": "v2026.06.15",
@@ -546,7 +401,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00792,
+          "max": 0.10017,
+          "coverage": 0.997,
+          "thresholds": {
+            "10": 1,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": [
         {
@@ -7852,7 +7731,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00498,
+          "max": 0.04422,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
@@ -7862,7 +7765,7 @@
           "product": "Webtop Media Transcoder",
           "title": "",
           "epss0": 0.00241,
-          "epss_peak": 0.00241,
+          "epss_peak": 0.00638,
           "kev": true
         }
       ]
@@ -10002,7 +9905,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00409,
+          "max": 0.00876,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10013,7 +9940,7 @@
           "product": "UnrealIRCd",
           "title": "",
           "epss0": 0.00293,
-          "epss_peak": 0.00293,
+          "epss_peak": 0.00508,
           "kev": true
         }
       ]
@@ -10225,6 +10152,106 @@
         "90": null
       },
       "named": []
+    },
+    {
+      "date": "2026-11-12",
+      "epss_model_version": "v2026.06.15",
+      "total": 380,
+      "backfilled": 8,
+      "net_total": 372,
+      "kev": 1,
+      "kev_lag_median": 1,
+      "epss_p90": 0.00665,
+      "epss_max": 0.20352,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 1,
+        "15": 1,
+        "20": 1,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00665,
+          "max": 0.20352,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-123039",
+          "vendor": "checkpoint",
+          "product": "Quantum Security Gateway",
+          "title": "Local privilege escalation to root in the DynamicCLI daemon via local world-writable control socket",
+          "epss0": 0.01274,
+          "epss_peak": 0.01274,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-75869",
+          "vendor": "Zohocorp",
+          "product": "DDI Central",
+          "title": "Authenticated command injection",
+          "epss0": 0.20352,
+          "epss_peak": 0.20352,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-12507",
+          "vendor": "Zohocorp",
+          "product": "AssetExplorer",
+          "title": "Authenticated remote code execution",
+          "epss0": 0.0944,
+          "epss_peak": 0.0944,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-120490",
+          "vendor": "checkpoint",
+          "product": "Scalable Platforms (ElasticXL, Maestro, Chassis)",
+          "title": "Administrator with policy and NAT permissions can bypass Sync network protection on Scalable Platforms",
+          "epss0": 0.08377,
+          "epss_peak": 0.08377,
+          "kev": false
+        }
+      ]
     }
   ]
 }
