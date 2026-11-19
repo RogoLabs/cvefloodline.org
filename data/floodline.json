@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T19:41:32Z",
+  "generated": "2026-11-19T19:42:03Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -10,165 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-11-18",
-  "latest_epss_date": "2026-11-18",
+  "latest_epss_date": "2026-11-19",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 45779,
-    "backfilled": 634,
-    "net_total": 45145,
+    "total": 44727,
+    "backfilled": 630,
+    "net_total": 44097,
     "kev": 77,
     "cross10_pit": 5,
     "mature_horizon": 30,
     "cross10_matured": 27,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 30920
+    "matured_eligible_total": 31426
   },
   "days": [
-    {
-      "date": "2026-08-18",
-      "epss_model_version": "v2026.06.15",
-      "total": 1407,
-      "backfilled": 8,
-      "net_total": 1399,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00447,
-      "epss_max": 0.02086,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00447,
-          "max": 0.02086,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00441,
-          "max": 0.04615,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00447,
-          "max": 0.04615,
-          "coverage": 0.9986,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00508,
-          "max": 0.08092,
-          "coverage": 0.9986,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": [
-        {
-          "id": "CVE-2026-18963",
-          "vendor": "Red Hat",
-          "product": "Red Hat build of Keycloak 26.4",
-          "title": "Keycloak-services: keycloak-services: unauthenticated account takeover via reset-credentials flow bypass",
-          "epss0": 0.00391,
-          "epss_peak": 0.08092,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-08-19",
       "epss_model_version": "v2026.06.15",
@@ -593,7 +448,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00784,
+          "max": 0.04479,
+          "coverage": 0.9923,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": []
     },
@@ -4602,19 +4481,19 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server SSRF",
+          "title": "Plex Media Server arbitrary-host SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server arbitrary-host SSRF",
+          "title": "Plex Media Server SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
@@ -7863,7 +7742,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00474,
+          "max": 0.03472,
+          "coverage": 0.9995,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -7955,20 +7858,20 @@
       },
       "named": [
         {
-          "id": "CVE-2026-109619",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via stale global state",
-          "epss0": 0.05757,
-          "epss_peak": 0.99999,
-          "kev": true
-        },
-        {
           "id": "CVE-2026-109618",
           "vendor": "PHP Group",
           "product": "PHP",
           "title": "RCE via OOM corruption",
           "epss0": 0.05307,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-109619",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via stale global state",
+          "epss0": 0.05757,
           "epss_peak": 0.99999,
           "kev": true
         }
@@ -10040,7 +9943,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00667,
+          "max": 0.20352,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10051,7 +9978,7 @@
           "product": "Quantum Security Gateway",
           "title": "Local privilege escalation to root in the DynamicCLI daemon via local world-writable control socket",
           "epss0": 0.01274,
-          "epss_peak": 0.01274,
+          "epss_peak": 0.01938,
           "kev": true
         },
         {
@@ -10244,6 +10171,69 @@
         "0": {
           "p90": 0.00466,
           "max": 0.02216,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
+    },
+    {
+      "date": "2026-11-16",
+      "epss_model_version": "v2026.06.15",
+      "total": 355,
+      "backfilled": 4,
+      "net_total": 351,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00502,
+      "epss_max": 0.01569,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00502,
+          "max": 0.01569,
           "coverage": 1.0,
           "thresholds": {
             "10": 0,
