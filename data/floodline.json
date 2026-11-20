@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T19:42:03Z",
+  "generated": "2026-11-20T19:20:49Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -9,193 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-11-18",
-  "latest_epss_date": "2026-11-19",
+  "kev_snapshot_date": "2026-11-20",
+  "latest_epss_date": "2026-11-20",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 44727,
-    "backfilled": 630,
-    "net_total": 44097,
-    "kev": 77,
+    "total": 45301,
+    "backfilled": 622,
+    "net_total": 44679,
+    "kev": 75,
     "cross10_pit": 5,
     "mature_horizon": 30,
-    "cross10_matured": 27,
+    "cross10_matured": 29,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 31426
+    "matured_eligible_total": 31229
   },
   "days": [
-    {
-      "date": "2026-08-19",
-      "epss_model_version": "v2026.06.15",
-      "total": 673,
-      "backfilled": 10,
-      "net_total": 663,
-      "kev": 4,
-      "kev_lag_median": 21,
-      "epss_p90": 0.00549,
-      "epss_max": 0.03336,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00549,
-          "max": 0.03336,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00517,
-          "max": 0.03372,
-          "coverage": 0.9985,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00561,
-          "max": 0.05597,
-          "coverage": 0.9985,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00753,
-          "max": 0.33262,
-          "coverage": 0.9985,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": [
-        {
-          "id": "CVE-2026-19490",
-          "vendor": "NetScaler",
-          "product": "ADC",
-          "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2026-19490",
-          "epss0": 0.00345,
-          "epss_peak": 0.33262,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-72530",
-          "vendor": "TrueConf",
-          "product": "TrueConf Server",
-          "title": "",
-          "epss0": 0.0034,
-          "epss_peak": 0.01827,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-72529",
-          "vendor": "TrueConf",
-          "product": "TrueConf Server",
-          "title": "",
-          "epss0": 0.00284,
-          "epss_peak": 0.01554,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-20320",
-          "vendor": "Cisco",
-          "product": "Cisco BroadWorks",
-          "title": "",
-          "epss0": 0.00353,
-          "epss_peak": 0.00976,
-          "kev": true
-        }
-      ]
-    },
     {
       "date": "2026-08-20",
       "epss_model_version": "v2026.06.15",
@@ -583,7 +411,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00521,
+          "max": 0.02399,
+          "coverage": 0.9917,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": []
     },
@@ -4481,19 +4333,19 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server arbitrary-host SSRF",
+          "title": "Plex Media Server SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server SSRF",
+          "title": "Plex Media Server arbitrary-host SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
@@ -7777,7 +7629,7 @@
       "total": 476,
       "backfilled": 23,
       "net_total": 453,
-      "kev": 2,
+      "kev": 3,
       "kev_lag_median": 5,
       "epss_p90": 0.00458,
       "epss_max": 0.05757,
@@ -7853,10 +7705,43 @@
             "95": 2
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00565,
+          "max": 0.99999,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 2,
+            "35": 2,
+            "40": 2,
+            "45": 2,
+            "50": 2,
+            "55": 2,
+            "60": 2,
+            "65": 2,
+            "70": 2,
+            "75": 2,
+            "80": 2,
+            "85": 2,
+            "90": 2,
+            "95": 2
+          }
+        },
         "90": null
       },
       "named": [
+        {
+          "id": "CVE-2026-109619",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via stale global state",
+          "epss0": 0.05757,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
         {
           "id": "CVE-2026-109618",
           "vendor": "PHP Group",
@@ -7867,12 +7752,12 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-109619",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via stale global state",
-          "epss0": 0.05757,
-          "epss_peak": 0.99999,
+          "id": "CVE-2026-76466",
+          "vendor": "Cisco",
+          "product": "Cisco TelePresence Video Communication Server (VCS) Expressway",
+          "title": "Cisco Expressway Series Remote Code Execution Vulnerability",
+          "epss0": 0.00381,
+          "epss_peak": 0.00417,
           "kev": true
         }
       ]
@@ -10067,7 +9952,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00524,
+          "max": 0.02253,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10261,6 +10170,79 @@
         "90": null
       },
       "named": []
+    },
+    {
+      "date": "2026-11-17",
+      "epss_model_version": "v2026.06.15",
+      "total": 1247,
+      "backfilled": 2,
+      "net_total": 1245,
+      "kev": 1,
+      "kev_lag_median": 3,
+      "epss_p90": 0.00507,
+      "epss_max": 0.03272,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00507,
+          "max": 0.03272,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-129448",
+          "vendor": "Apache Software Foundation",
+          "product": "Apache Roller",
+          "title": "Apache Roller: Unauthenticated deserialization in the XML-RPC endpoint (releases before 6.1.5)",
+          "epss0": 0.0164,
+          "epss_peak": 0.0164,
+          "kev": true
+        }
+      ]
     }
   ]
 }
