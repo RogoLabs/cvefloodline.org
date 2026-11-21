@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T19:20:49Z",
+  "generated": "2026-11-21T18:23:13Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -10,165 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-11-20",
-  "latest_epss_date": "2026-11-20",
+  "latest_epss_date": "2026-11-21",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 45301,
-    "backfilled": 622,
-    "net_total": 44679,
+    "total": 45547,
+    "backfilled": 654,
+    "net_total": 44893,
     "kev": 75,
-    "cross10_pit": 5,
+    "cross10_pit": 7,
     "mature_horizon": 30,
-    "cross10_matured": 29,
+    "cross10_matured": 31,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 31229
+    "matured_eligible_total": 31245
   },
   "days": [
-    {
-      "date": "2026-08-20",
-      "epss_model_version": "v2026.06.15",
-      "total": 466,
-      "backfilled": 11,
-      "net_total": 455,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00566,
-      "epss_max": 0.05035,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00566,
-          "max": 0.05035,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00533,
-          "max": 0.05035,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.0054,
-          "max": 0.05697,
-          "coverage": 0.9979,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00802,
-          "max": 0.05772,
-          "coverage": 0.9979,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": [
-        {
-          "id": "CVE-2026-19586",
-          "vendor": "TP-Link Systems Inc.",
-          "product": "ER7212PC v2",
-          "title": "Pre-Authentication OS Command Injection in Omada Gateways on OpenVPN Server in Omada Gateways",
-          "epss0": 0.05035,
-          "epss_peak": 0.05772,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-08-21",
       "epss_model_version": "v2026.06.15",
@@ -546,7 +401,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00669,
+          "max": 0.02747,
+          "coverage": 0.9767,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": []
     },
@@ -7734,20 +7613,20 @@
       },
       "named": [
         {
-          "id": "CVE-2026-109619",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via stale global state",
-          "epss0": 0.05757,
-          "epss_peak": 0.99999,
-          "kev": true
-        },
-        {
           "id": "CVE-2026-109618",
           "vendor": "PHP Group",
           "product": "PHP",
           "title": "RCE via OOM corruption",
           "epss0": 0.05307,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-109619",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via stale global state",
+          "epss0": 0.05757,
           "epss_peak": 0.99999,
           "kev": true
         },
@@ -7844,7 +7723,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.0066,
+          "max": 0.99931,
+          "coverage": 0.9979,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 2,
+            "35": 2,
+            "40": 2,
+            "45": 2,
+            "50": 2,
+            "55": 1,
+            "60": 1,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "80": 1,
+            "85": 1,
+            "90": 1,
+            "95": 1
+          }
+        },
         "90": null
       },
       "named": [
@@ -7854,7 +7757,7 @@
           "product": "Brotli",
           "title": "Out-of-Bounds Write in Google Brotli Decoder",
           "epss0": 0.0048,
-          "epss_peak": 0.82641,
+          "epss_peak": 0.99931,
           "kev": true
         },
         {
@@ -7863,8 +7766,17 @@
           "product": "VeloCloud Orchestrator",
           "title": "Security Advisory 0199",
           "epss0": 0.00555,
-          "epss_peak": 0.01025,
+          "epss_peak": 0.07666,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-110264",
+          "vendor": "GitLab",
+          "product": "GitLab",
+          "title": "Integer Overflow or Wraparound in GitLab",
+          "epss0": 0.00505,
+          "epss_peak": 0.54049,
+          "kev": false
         }
       ]
     },
@@ -10039,7 +9951,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00667,
+          "max": 0.02399,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10241,6 +10177,106 @@
           "epss0": 0.0164,
           "epss_peak": 0.0164,
           "kev": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "epss_model_version": "v2026.06.15",
+      "total": 712,
+      "backfilled": 43,
+      "net_total": 669,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00635,
+      "epss_max": 0.25705,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 2,
+        "15": 2,
+        "20": 2,
+        "25": 1,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00635,
+          "max": 0.25705,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 1,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-95645",
+          "vendor": "Zohocorp",
+          "product": "DDI Central",
+          "title": "Authenticated Command Injection",
+          "epss0": 0.25705,
+          "epss_peak": 0.25705,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-95643",
+          "vendor": "Zohocorp",
+          "product": "DDI Central",
+          "title": "Authenticated Command Injection",
+          "epss0": 0.21677,
+          "epss_peak": 0.21677,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-123633",
+          "vendor": "F5",
+          "product": "NGINX Open Source",
+          "title": "NGINX ngx_http_v2_module vulnerability",
+          "epss0": 0.06532,
+          "epss_peak": 0.06532,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-123007",
+          "vendor": "F5",
+          "product": "NGINX Plus",
+          "title": "NGINX ngx_http_v2_module vulnerability",
+          "epss0": 0.06358,
+          "epss_peak": 0.06358,
+          "kev": false
         }
       ]
     }
