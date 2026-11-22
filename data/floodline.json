@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T18:23:13Z",
+  "generated": "2026-11-22T18:46:20Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -10,155 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-11-20",
-  "latest_epss_date": "2026-11-21",
+  "latest_epss_date": "2026-11-22",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 45547,
+    "total": 46308,
     "backfilled": 654,
-    "net_total": 44893,
-    "kev": 75,
-    "cross10_pit": 7,
+    "net_total": 45654,
+    "kev": 76,
+    "cross10_pit": 12,
     "mature_horizon": 30,
     "cross10_matured": 31,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 31245
+    "matured_eligible_total": 31474
   },
   "days": [
-    {
-      "date": "2026-08-21",
-      "epss_model_version": "v2026.06.15",
-      "total": 259,
-      "backfilled": 1,
-      "net_total": 258,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00482,
-      "epss_max": 0.01709,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00482,
-          "max": 0.01709,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00488,
-          "max": 0.04201,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00523,
-          "max": 0.04201,
-          "coverage": 0.9923,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00784,
-          "max": 0.04479,
-          "coverage": 0.9923,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": []
-    },
     {
       "date": "2026-08-22",
       "epss_model_version": "v2026.06.15",
@@ -536,7 +401,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.01442,
+          "max": 0.03055,
+          "coverage": 0.9935,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": []
     },
@@ -4212,19 +4101,19 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server SSRF",
+          "title": "Plex Media Server arbitrary-host SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server arbitrary-host SSRF",
+          "title": "Plex Media Server SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
@@ -7613,20 +7502,20 @@
       },
       "named": [
         {
-          "id": "CVE-2026-109618",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "RCE via OOM corruption",
-          "epss0": 0.05307,
-          "epss_peak": 0.99999,
-          "kev": true
-        },
-        {
           "id": "CVE-2026-109619",
           "vendor": "PHP Group",
           "product": "PHP",
           "title": "RCE via stale global state",
           "epss0": 0.05757,
+          "epss_peak": 0.99999,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-109618",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "RCE via OOM corruption",
+          "epss0": 0.05307,
           "epss_peak": 0.99999,
           "kev": true
         },
@@ -7862,7 +7751,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00489,
+          "max": 0.02533,
+          "coverage": 0.998,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -10038,7 +9951,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00529,
+          "max": 0.02154,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10276,6 +10213,115 @@
           "title": "NGINX ngx_http_v2_module vulnerability",
           "epss0": 0.06358,
           "epss_peak": 0.06358,
+          "kev": false
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "epss_model_version": "v2026.06.15",
+      "total": 1020,
+      "backfilled": 1,
+      "net_total": 1019,
+      "kev": 1,
+      "kev_lag_median": 1,
+      "epss_p90": 0.00559,
+      "epss_max": 0.56429,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 5,
+        "15": 3,
+        "20": 1,
+        "25": 1,
+        "30": 1,
+        "35": 1,
+        "40": 1,
+        "45": 1,
+        "50": 1,
+        "55": 1,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00559,
+          "max": 0.56429,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 5,
+            "15": 3,
+            "20": 1,
+            "25": 1,
+            "30": 1,
+            "35": 1,
+            "40": 1,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-123890",
+          "vendor": "VMware",
+          "product": "VMware vCenter",
+          "title": "vCenter authentication-bypass vulnerability",
+          "epss0": 0.00843,
+          "epss_peak": 0.00843,
+          "kev": true
+        },
+        {
+          "id": "CVE-2026-115560",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "Session serializer mismatch can lead to remote code execution",
+          "epss0": 0.56429,
+          "epss_peak": 0.56429,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-126714",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "Partially overwritten session files can lead to remote code execution",
+          "epss0": 0.17587,
+          "epss_peak": 0.17587,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-129289",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "PHP-FPM request smuggling through an unread HTTP request body",
+          "epss0": 0.1704,
+          "epss_peak": 0.1704,
+          "kev": false
+        },
+        {
+          "id": "CVE-2026-129538",
+          "vendor": "PHP Group",
+          "product": "PHP",
+          "title": "PHP-CGI out-of-bounds read and write during PATH_INFO correction",
+          "epss0": 0.12818,
+          "epss_peak": 0.12818,
           "kev": false
         }
       ]
