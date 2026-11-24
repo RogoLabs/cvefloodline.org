@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T22:59:43Z",
+  "generated": "2026-11-24T21:38:59Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -9,156 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-11-23",
-  "latest_epss_date": "2026-11-23",
+  "kev_snapshot_date": "2026-11-24",
+  "latest_epss_date": "2026-11-24",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 46834,
-    "backfilled": 656,
-    "net_total": 46178,
-    "kev": 77,
+    "total": 47135,
+    "backfilled": 658,
+    "net_total": 46477,
+    "kev": 79,
     "cross10_pit": 12,
     "mature_horizon": 30,
     "cross10_matured": 31,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 31307
+    "matured_eligible_total": 31397
   },
   "days": [
-    {
-      "date": "2026-08-23",
-      "epss_model_version": "v2026.06.15",
-      "total": 43,
-      "backfilled": 0,
-      "net_total": 43,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00492,
-      "epss_max": 0.02747,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00492,
-          "max": 0.02747,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00529,
-          "max": 0.01067,
-          "coverage": 0.9767,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00529,
-          "max": 0.01067,
-          "coverage": 0.9767,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00669,
-          "max": 0.02747,
-          "coverage": 0.9767,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": []
-    },
     {
       "date": "2026-08-24",
       "epss_model_version": "v2026.06.15",
@@ -536,7 +401,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00745,
+          "max": 0.23988,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": [
         {
@@ -7862,7 +7751,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00468,
+          "max": 0.01689,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -10038,7 +9951,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.0045,
+          "max": 0.59265,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 2,
+            "15": 2,
+            "20": 2,
+            "25": 2,
+            "30": 2,
+            "35": 2,
+            "40": 2,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10049,8 +9986,17 @@
           "product": "Apache Roller",
           "title": "Apache Roller: Unauthenticated deserialization in the XML-RPC endpoint (releases before 6.1.5)",
           "epss0": 0.0164,
-          "epss_peak": 0.0164,
+          "epss_peak": 0.40069,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-114938",
+          "vendor": "Oracle Corporation",
+          "product": "Oracle Java SE",
+          "title": "",
+          "epss0": 0.00734,
+          "epss_peak": 0.59265,
+          "kev": false
         }
       ]
     },
@@ -10060,8 +10006,8 @@
       "total": 712,
       "backfilled": 43,
       "net_total": 669,
-      "kev": 0,
-      "kev_lag_median": null,
+      "kev": 1,
+      "kev_lag_median": 6,
       "epss_p90": 0.00635,
       "epss_max": 0.25705,
       "coverage": 1.0,
@@ -10117,6 +10063,15 @@
       },
       "named": [
         {
+          "id": "CVE-2026-132224",
+          "vendor": "Optimizely",
+          "product": "Web Experimentation",
+          "title": "",
+          "epss0": 0.00411,
+          "epss_peak": 0.00411,
+          "kev": true
+        },
+        {
           "id": "CVE-2026-95645",
           "vendor": "Zohocorp",
           "product": "DDI Central",
@@ -10160,8 +10115,8 @@
       "total": 1020,
       "backfilled": 1,
       "net_total": 1019,
-      "kev": 1,
-      "kev_lag_median": 1,
+      "kev": 2,
+      "kev_lag_median": 5,
       "epss_p90": 0.00559,
       "epss_max": 0.56429,
       "coverage": 1.0,
@@ -10226,6 +10181,15 @@
           "kev": true
         },
         {
+          "id": "CVE-2026-131914",
+          "vendor": "Idunno",
+          "product": "AntiCsrf",
+          "title": "Deserialization of untrusted data in CodePlex AntiCSRF",
+          "epss0": 0.00614,
+          "epss_peak": 0.00614,
+          "kev": true
+        },
+        {
           "id": "CVE-2026-115560",
           "vendor": "PHP Group",
           "product": "PHP",
@@ -10250,15 +10214,6 @@
           "title": "PHP-FPM request smuggling through an unread HTTP request body",
           "epss0": 0.1704,
           "epss_peak": 0.1704,
-          "kev": false
-        },
-        {
-          "id": "CVE-2026-129538",
-          "vendor": "PHP Group",
-          "product": "PHP",
-          "title": "PHP-CGI out-of-bounds read and write during PATH_INFO correction",
-          "epss0": 0.12818,
-          "epss_peak": 0.12818,
           "kev": false
         }
       ]
@@ -10335,6 +10290,69 @@
           "kev": true
         }
       ]
+    },
+    {
+      "date": "2026-11-21",
+      "epss_model_version": "v2026.06.15",
+      "total": 344,
+      "backfilled": 2,
+      "net_total": 342,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.00653,
+      "epss_max": 0.02658,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00653,
+          "max": 0.02658,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
     }
   ]
 }
