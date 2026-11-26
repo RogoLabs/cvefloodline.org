@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T20:46:40Z",
+  "generated": "2026-11-26T20:39:13Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -10,155 +10,20 @@
   ],
   "mature_horizon": 30,
   "kev_snapshot_date": "2026-11-25",
-  "latest_epss_date": "2026-11-25",
+  "latest_epss_date": "2026-11-26",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 47022,
-    "backfilled": 649,
-    "net_total": 46373,
-    "kev": 86,
+    "total": 46640,
+    "backfilled": 638,
+    "net_total": 46002,
+    "kev": 87,
     "cross10_pit": 12,
     "mature_horizon": 30,
     "cross10_matured": 31,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 31852
+    "matured_eligible_total": 31683
   },
   "days": [
-    {
-      "date": "2026-08-25",
-      "epss_model_version": "v2026.06.15",
-      "total": 786,
-      "backfilled": 11,
-      "net_total": 775,
-      "kev": 0,
-      "kev_lag_median": null,
-      "epss_p90": 0.00429,
-      "epss_max": 0.02791,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 0,
-        "15": 0,
-        "20": 0,
-        "25": 0,
-        "30": 0,
-        "35": 0,
-        "40": 0,
-        "45": 0,
-        "50": 0,
-        "55": 0,
-        "60": 0,
-        "65": 0,
-        "70": 0,
-        "75": 0,
-        "80": 0,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00429,
-          "max": 0.02791,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00494,
-          "max": 0.02791,
-          "coverage": 0.9962,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00617,
-          "max": 0.03505,
-          "coverage": 0.9733,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00622,
-          "max": 0.03505,
-          "coverage": 0.9733,
-          "thresholds": {
-            "10": 0,
-            "15": 0,
-            "20": 0,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": []
-    },
     {
       "date": "2026-08-26",
       "epss_model_version": "v2026.06.15",
@@ -583,7 +448,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00705,
+          "max": 0.14372,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": [
         {
@@ -592,7 +481,7 @@
           "product": "artifactory",
           "title": "Potential authentication bypass leading to administrative access in Artifactory",
           "epss0": 0.00377,
-          "epss_peak": 0.14121,
+          "epss_peak": 0.14372,
           "kev": true
         },
         {
@@ -3768,19 +3657,19 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server arbitrary-host SSRF",
+          "title": "Plex Media Server SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server SSRF",
+          "title": "Plex Media Server arbitrary-host SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
@@ -7862,7 +7751,31 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00682,
+          "max": 0.0371,
+          "coverage": 0.9984,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": []
@@ -10112,7 +10025,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00671,
+          "max": 0.86584,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 6,
+            "15": 4,
+            "20": 4,
+            "25": 2,
+            "30": 2,
+            "35": 1,
+            "40": 1,
+            "45": 1,
+            "50": 1,
+            "55": 1,
+            "60": 1,
+            "65": 1,
+            "70": 1,
+            "75": 1,
+            "80": 1,
+            "85": 1,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10123,7 +10060,7 @@
           "product": "MiCollab",
           "title": "",
           "epss0": 0.01662,
-          "epss_peak": 0.01662,
+          "epss_peak": 0.05628,
           "kev": true
         },
         {
@@ -10132,7 +10069,7 @@
           "product": "VMware vCenter",
           "title": "vCenter authentication-bypass vulnerability",
           "epss0": 0.00843,
-          "epss_peak": 0.00843,
+          "epss_peak": 0.05009,
           "kev": true
         },
         {
@@ -10141,7 +10078,7 @@
           "product": "AntiCsrf",
           "title": "Deserialization of untrusted data in CodePlex AntiCSRF",
           "epss0": 0.00614,
-          "epss_peak": 0.00614,
+          "epss_peak": 0.04292,
           "kev": true
         },
         {
@@ -10150,16 +10087,16 @@
           "product": "MiCollab",
           "title": "",
           "epss0": 0.0055,
-          "epss_peak": 0.0055,
+          "epss_peak": 0.01326,
           "kev": true
         },
         {
-          "id": "CVE-2026-133324",
+          "id": "CVE-2026-133311",
           "vendor": "Mitel",
           "product": "MiCollab",
           "title": "",
-          "epss0": 0.00307,
-          "epss_peak": 0.00307,
+          "epss0": 0.00257,
+          "epss_peak": 0.00985,
           "kev": true
         }
       ]
@@ -10369,6 +10306,79 @@
           "title": "MailAssure / SpamExperts: Server-Side Request Forgery in relay LDAP synchronisation connection check",
           "epss0": 0.00354,
           "epss_peak": 0.00354,
+          "kev": true
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "epss_model_version": "v2026.06.15",
+      "total": 404,
+      "backfilled": 0,
+      "net_total": 404,
+      "kev": 1,
+      "kev_lag_median": 2,
+      "epss_p90": 0.00716,
+      "epss_max": 0.03348,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.00716,
+          "max": 0.03348,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": [
+        {
+          "id": "CVE-2026-133469",
+          "vendor": "vatesfr",
+          "product": "xen-orchestra",
+          "title": "Xen Orchestra: Empty-object login token",
+          "epss0": 0.00779,
+          "epss_peak": 0.00779,
           "kev": true
         }
       ]
