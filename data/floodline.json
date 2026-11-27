@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T20:39:13Z",
+  "generated": "2026-11-27T20:25:14Z",
   "window_days": 90,
   "days_present": 90,
   "horizons": [
@@ -9,175 +9,21 @@
     90
   ],
   "mature_horizon": 30,
-  "kev_snapshot_date": "2026-11-25",
-  "latest_epss_date": "2026-11-26",
+  "kev_snapshot_date": "2026-11-27",
+  "latest_epss_date": "2026-11-27",
   "latest_epss_model_version": "v2026.06.15",
   "summary": {
-    "total": 46640,
-    "backfilled": 638,
-    "net_total": 46002,
-    "kev": 87,
-    "cross10_pit": 12,
+    "total": 47130,
+    "backfilled": 618,
+    "net_total": 46512,
+    "kev": 86,
+    "cross10_pit": 11,
     "mature_horizon": 30,
-    "cross10_matured": 31,
+    "cross10_matured": 30,
     "matured_eligible_days": 63,
-    "matured_eligible_total": 31683
+    "matured_eligible_total": 31929
   },
   "days": [
-    {
-      "date": "2026-08-26",
-      "epss_model_version": "v2026.06.15",
-      "total": 380,
-      "backfilled": 20,
-      "net_total": 360,
-      "kev": 1,
-      "kev_lag_median": -1,
-      "epss_p90": 0.00519,
-      "epss_max": 0.824,
-      "coverage": 1.0,
-      "thresholds": {
-        "10": 1,
-        "15": 1,
-        "20": 1,
-        "25": 1,
-        "30": 1,
-        "35": 1,
-        "40": 1,
-        "45": 1,
-        "50": 1,
-        "55": 1,
-        "60": 1,
-        "65": 1,
-        "70": 1,
-        "75": 1,
-        "80": 1,
-        "85": 0,
-        "90": 0,
-        "95": 0
-      },
-      "maturation": {
-        "0": {
-          "p90": 0.00519,
-          "max": 0.824,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 1,
-            "60": 1,
-            "65": 1,
-            "70": 1,
-            "75": 1,
-            "80": 1,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "7": {
-          "p90": 0.00543,
-          "max": 0.86777,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 1,
-            "30": 1,
-            "35": 1,
-            "40": 1,
-            "45": 1,
-            "50": 1,
-            "55": 1,
-            "60": 1,
-            "65": 1,
-            "70": 1,
-            "75": 1,
-            "80": 1,
-            "85": 1,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "30": {
-          "p90": 0.00755,
-          "max": 0.23988,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        },
-        "90": {
-          "p90": 0.00745,
-          "max": 0.23988,
-          "coverage": 1.0,
-          "thresholds": {
-            "10": 1,
-            "15": 1,
-            "20": 1,
-            "25": 0,
-            "30": 0,
-            "35": 0,
-            "40": 0,
-            "45": 0,
-            "50": 0,
-            "55": 0,
-            "60": 0,
-            "65": 0,
-            "70": 0,
-            "75": 0,
-            "80": 0,
-            "85": 0,
-            "90": 0,
-            "95": 0
-          }
-        }
-      },
-      "named": [
-        {
-          "id": "CVE-2026-60004",
-          "vendor": "Gitea",
-          "product": "Gitea",
-          "title": "",
-          "epss0": 0.824,
-          "epss_peak": 0.86777,
-          "kev": true
-        },
-        {
-          "id": "CVE-2026-19632",
-          "vendor": "cozmoslabs",
-          "product": "TranslatePress \u2013 Translate Multilingual sites with AI Translation",
-          "title": "TranslatePress \u2013 Multilingual <= 3.3.1 - Unauthenticated Account Takeover via Password Reset Link Disclosure",
-          "epss0": 0.00787,
-          "epss_peak": 0.08964,
-          "kev": false
-        }
-      ]
-    },
     {
       "date": "2026-08-27",
       "epss_model_version": "v2026.06.15",
@@ -611,7 +457,31 @@
             "95": 0
           }
         },
-        "90": null
+        "90": {
+          "p90": 0.00738,
+          "max": 0.02367,
+          "coverage": 0.9846,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        }
       },
       "named": []
     },
@@ -3657,19 +3527,19 @@
           "kev": true
         },
         {
-          "id": "CVE-2026-96652",
+          "id": "CVE-2026-96655",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server SSRF",
+          "title": "Plex Media Server arbitrary-host SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
         },
         {
-          "id": "CVE-2026-96655",
+          "id": "CVE-2026-96652",
           "vendor": "Plex",
           "product": "Media Server",
-          "title": "Plex Media Server arbitrary-host SSRF",
+          "title": "Plex Media Server SSRF",
           "epss0": 0.00199,
           "epss_peak": 0.00455,
           "kev": true
@@ -7862,27 +7732,60 @@
             "95": 0
           }
         },
-        "30": null,
+        "30": {
+          "p90": 0.00689,
+          "max": 0.05729,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "90": null
       },
       "named": [
-        {
-          "id": "CVE-2026-76418",
-          "vendor": "Cisco",
-          "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
-          "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
-          "epss0": 0.00574,
-          "epss_peak": 0.00821,
-          "kev": true
-        },
         {
           "id": "CVE-2026-103406",
           "vendor": "Juniper Networks",
           "product": "Session Smart Conductor",
           "title": "Session Smart Conductor: An unauthenticated attacker causes arbitrary command execution during key management.",
           "epss0": 0.00516,
-          "epss_peak": 0.00516,
+          "epss_peak": 0.01535,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-76418",
+          "vendor": "Cisco",
+          "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) Software",
+          "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+          "epss0": 0.00574,
+          "epss_peak": 0.00992,
+          "kev": true
+        },
+        {
+          "id": "CVE-2013-20007",
+          "vendor": "Linksys",
+          "product": "WAG200G",
+          "title": "Linksys WAG200G through 1.01.06 OS Command Injection via timer_interval in setup.cgi",
+          "epss0": 0.02004,
+          "epss_peak": 0.05729,
+          "kev": false
         }
       ]
     },
@@ -10158,7 +10061,31 @@
             "95": 0
           }
         },
-        "7": null,
+        "7": {
+          "p90": 0.00585,
+          "max": 0.27157,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 1,
+            "15": 1,
+            "20": 1,
+            "25": 1,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
         "30": null,
         "90": null
       },
@@ -10169,8 +10096,17 @@
           "product": "MONAI Label",
           "title": "",
           "epss0": 0.03131,
-          "epss_peak": 0.03131,
+          "epss_peak": 0.27157,
           "kev": true
+        },
+        {
+          "id": "CVE-2026-127027",
+          "vendor": "Analogic",
+          "product": "Poste.io",
+          "title": "Remote Code Execution in Poste.io",
+          "epss0": 0.04181,
+          "epss_peak": 0.0756,
+          "kev": false
         }
       ]
     },
@@ -10382,6 +10318,69 @@
           "kev": true
         }
       ]
+    },
+    {
+      "date": "2026-11-24",
+      "epss_model_version": "v2026.06.15",
+      "total": 870,
+      "backfilled": 0,
+      "net_total": 870,
+      "kev": 0,
+      "kev_lag_median": null,
+      "epss_p90": 0.0083,
+      "epss_max": 0.03561,
+      "coverage": 1.0,
+      "thresholds": {
+        "10": 0,
+        "15": 0,
+        "20": 0,
+        "25": 0,
+        "30": 0,
+        "35": 0,
+        "40": 0,
+        "45": 0,
+        "50": 0,
+        "55": 0,
+        "60": 0,
+        "65": 0,
+        "70": 0,
+        "75": 0,
+        "80": 0,
+        "85": 0,
+        "90": 0,
+        "95": 0
+      },
+      "maturation": {
+        "0": {
+          "p90": 0.0083,
+          "max": 0.03561,
+          "coverage": 1.0,
+          "thresholds": {
+            "10": 0,
+            "15": 0,
+            "20": 0,
+            "25": 0,
+            "30": 0,
+            "35": 0,
+            "40": 0,
+            "45": 0,
+            "50": 0,
+            "55": 0,
+            "60": 0,
+            "65": 0,
+            "70": 0,
+            "75": 0,
+            "80": 0,
+            "85": 0,
+            "90": 0,
+            "95": 0
+          }
+        },
+        "7": null,
+        "30": null,
+        "90": null
+      },
+      "named": []
     }
   ]
 }
